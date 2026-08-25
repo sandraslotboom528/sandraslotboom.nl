@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 // ← Vul hier jouw Kennis Shop URL in (bijv. 'https://jouwbedrijf.kennis.shop')
 // Laat leeg ('') als je nog geen Kennis Shop hebt of geen link wilt tonen.
-const KENNIS_SHOP_URL = '';
+const KENNIS_SHOP_URL = 'https://salacia.kennis.shop/';
 
 const navLinks = [
   { href: '/',         label: 'Home'     },
@@ -22,7 +22,7 @@ export default function Header() {
 
         {/* Logo / naam */}
         <Link href="/" className="font-bold text-primair text-lg" onClick={() => setOpen(false)}>
-          [Jouw naam]
+          Salacia
         </Link>
 
         {/* Navigatie — desktop */}
@@ -36,7 +36,7 @@ export default function Header() {
           {KENNIS_SHOP_URL && (
             <a href={KENNIS_SHOP_URL} target="_blank" rel="noopener noreferrer"
               className="bg-primair text-wit px-4 py-2 rounded-full hover:opacity-90 transition-opacity">
-              Mijn cursussen
+              Kennis Shop
             </a>
           )}
         </nav>
@@ -65,7 +65,7 @@ export default function Header() {
             <a href={KENNIS_SHOP_URL} target="_blank" rel="noopener noreferrer"
               className="bg-primair text-wit px-4 py-3 rounded-full hover:opacity-90 transition-opacity text-center"
               onClick={() => setOpen(false)}>
-              Mijn cursussen
+              Kennis Shop
             </a>
           )}
         </nav>

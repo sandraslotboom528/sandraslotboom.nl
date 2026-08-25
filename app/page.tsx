@@ -24,14 +24,16 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Introductie */}
-      <section className="max-w-3xl mx-auto px-6 py-20 text-center">
-        <h2 className="text-2xl font-bold text-primair mb-4 reveal">[Introductietitel]</h2>
-        <p className="text-tekst/80 leading-relaxed reveal">
-          [Vertel hier kort wat je doet, voor wie en waarom jij de juiste persoon bent.
-          Houd het warm en persoonlijk.]
-        </p>
-      </section>
+      {/* Introductie — hero-cover laat deze sectie over de hero heen schuiven bij scrollen */}
+      <div className="hero-cover">
+        <section className="max-w-3xl mx-auto px-6 py-20 text-center">
+          <h2 className="text-2xl font-bold text-primair mb-4 reveal">[Introductietitel]</h2>
+          <p className="text-tekst/80 leading-relaxed reveal">
+            [Vertel hier kort wat je doet, voor wie en waarom jij de juiste persoon bent.
+            Houd het warm en persoonlijk.]
+          </p>
+        </section>
+      </div>
 
       <ScrollReveal singles={['.reveal']} />
     </>

@@ -6,25 +6,11 @@
    ══════════════════════════════════════════════════════════════ */
 
 @theme {
-  --color-primair:      #3b5633;   /* ← jouw hoofdkleur     */
-  --color-achtergrond:  #f8f5f0;   /* ← achtergrondkleur    */
-  --color-tekst:        #1a1a1a;   /* ← tekstkleur          */
-  --color-accent:       #d56119;   /* ← accentkleur         */
-  --color-wit:          #ffffff;
-
-  /* ── STAP 2 — Jouw lettertype ────────────────────────────── */
-  /* Optie A: Google Font
-     1. Ga naar fonts.google.com, zoek jouw font, kies "Get font" → "Get embed code"
-     2. Kopieer de @import-regel en plak hem hierboven
-     3. Pas de naam hieronder aan:
-  --font-hoofd: 'Lato', sans-serif;
-
-     Optie B: Eigen font (.otf / .ttf / .woff2)
-     1. Kopieer jouw fontbestand naar /public/fonts/
-     2. Voeg onderaan dit bestand een @font-face toe
-     3. Pas de naam hieronder aan:
-  --font-hoofd: 'JouwFont', serif;
-  */
+  --color-primair:     #547c65;
+  --color-achtergrond: #f8f5f0;
+  --color-tekst:       #1a1a1a;
+  --color-accent:      #547c65;
+  --color-wit:         #ffffff;
   --font-hoofd: Inter, system-ui, sans-serif;
 }
 
@@ -67,15 +53,20 @@ body {
 /* ─── Hero sectie ───────────────────────────────────────────
    Gebruik: <div className="hero-section" style={{ backgroundImage: "url('/portret.jpg')" }}>
    Als portret.jpg ontbreekt, valt hij terug op --color-primair.
+
+   Scroll-effect: de hero blijft (sticky) op zijn plek staan terwijl de
+   sectie erna (met className="hero-cover") eroverheen omhoog schuift,
+   zodat de foto langzaam verdwijnt onder de content.
    ─────────────────────────────────────────────────────────── */
 .hero-section {
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 0;
   height: 480px;
   overflow: hidden;
-  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center 25%;
   background-color: var(--color-primair);
 }
 .hero-overlay {
@@ -88,12 +79,22 @@ body {
   padding: 2.5rem;
 }
 @media (max-width: 768px) {
-  .hero-section { height: 460px; background-attachment: scroll; }
+  .hero-section { height: 460px; }
   .hero-overlay {
     padding: 1.5rem;
     justify-content: flex-end;
     background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.3) 60%, transparent 100%);
   }
+}
+
+/* Sectie die direct na de hero komt en eroverheen schuift.
+   Moet een dekkende achtergrond hebben, anders blijft de hero zichtbaar. */
+.hero-cover {
+  position: relative;
+  z-index: 1;
+  background-color: var(--color-achtergrond);
+  border-radius: 2rem 2rem 0 0;
+  box-shadow: 0 -12px 30px rgba(0,0,0,0.08);
 }
 
 /* ─── Hero-knop (speels) ────────────────────────────────────── */
