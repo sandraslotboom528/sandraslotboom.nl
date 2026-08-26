@@ -87,6 +87,23 @@ body {
   }
 }
 
+/* Hero op de homepage: op mobiel portret.jpg, op desktop een eigen
+   losser gekaderde foto. Zet die foto op public/fotos/portret-homepage.jpg. */
+.hero-section-home {
+  background-image: url('/fotos/portret.jpg');
+}
+@media (min-width: 769px) {
+  .hero-section-home {
+    background-image: url('/fotos/portret-homepage.jpg');
+  }
+}
+
+/* Hero op de over-mij pagina: eigen crop zodat het gezicht op de
+   bovenste foto in beeld blijft, ook op brede schermen. */
+.hero-section-overmij {
+  background-position: center 5%;
+}
+
 /* Sectie die direct na de hero komt en eroverheen schuift.
    Moet een dekkende achtergrond hebben, anders blijft de hero zichtbaar. */
 .hero-cover {

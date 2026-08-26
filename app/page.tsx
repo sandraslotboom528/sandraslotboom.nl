@@ -8,9 +8,8 @@ import ScrollReveal from '@/components/ScrollReveal';
 export default function HomePage() {
   return (
     <>
-      {/* Hero — portret.jpg uit /public/ als achtergrond.
-          Ontbreekt de foto? Dan valt de achtergrond terug op --color-primair. */}
-      <div className="hero-section" style={{ backgroundImage: "url('/fotos/portret.jpg')" }}>
+      {/* Hero — mobiel: portret.jpg, desktop: portret-homepage.jpg (zie globals.css) */}
+      <div className="hero-section hero-section-home">
         <div className="hero-overlay">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-2xl leading-tight">
             Ruimte voor herstel, rust en heelheid.

@@ -6,8 +6,8 @@ export const metadata: Metadata = { title: 'Over mij' };
 export default function OverMijPage() {
   return (
     <>
-      {/* Hero — portret.jpg als achtergrond */}
-      <div className="hero-section" style={{ backgroundImage: "url('/fotos/portret.jpg')" }}>
+      {/* Hero — herosectie-over-mij.jpg als achtergrond (mobiel én desktop) */}
+      <div className="hero-section hero-section-overmij" style={{ backgroundImage: "url('/fotos/herosectie-over-mij.jpg')" }}>
         <div className="hero-overlay">
           <h1 className="text-4xl md:text-5xl font-bold text-white">Over mij</h1>
         </div>
