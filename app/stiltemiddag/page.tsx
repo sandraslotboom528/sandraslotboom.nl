@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 import ScrollReveal from '@/components/ScrollReveal';
 
 export const metadata: Metadata = { title: 'Stiltemiddag' };
+
+const AANMELD_URL = 'https://laposta.nl/f/ss8wbmxwsq74';
 
 export default function StiltemiddagPage() {
   return (
@@ -37,7 +38,7 @@ export default function StiltemiddagPage() {
           <p className="font-bold text-primair mb-8 reveal">
             De kosten voor de stiltemiddag zijn €68,-.
           </p>
-          <a href="#aanmelden"
+          <a href={AANMELD_URL} target="_blank" rel="noopener noreferrer"
             className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity reveal">
             Meld je aan voor de stiltemiddag →
           </a>
@@ -149,17 +150,11 @@ export default function StiltemiddagPage() {
               <li>een middag volledig voor jezelf</li>
               <li>toegang tot de online Academy met uitleg van de gebruikte acupressuurpunten</li>
             </ul>
-            <a href="#aanmelden"
+            <a href={AANMELD_URL} target="_blank" rel="noopener noreferrer"
               className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity reveal">
               Jaaaa, ik meld me aan →
             </a>
           </div>
-        </section>
-
-        {/* Aanmeldformulier */}
-        <section id="aanmelden" className="max-w-2xl mx-auto px-6 py-16">
-          <h2 className="text-2xl font-bold text-primair mb-6 text-center reveal">Meld je aan</h2>
-          <Script async src="https://embed.email-provider.eu/e/7ktkt4hazy-8wbmxwsq74.js" />
         </section>
 
         {/* Afsluiting */}
