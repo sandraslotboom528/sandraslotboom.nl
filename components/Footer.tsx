@@ -16,7 +16,17 @@ export default function Footer() {
               </a>
             </p>
           </div>
-          <a href="/contact" className="hover:text-wit transition-colors">Contact</a>
+          <div className="flex flex-col gap-1 sm:items-end">
+            <a href="/contact" className="hover:text-wit transition-colors">Contact</a>
+            <a href="/documenten/algemene-voorwaarden.pdf" target="_blank" rel="noopener noreferrer"
+              className="hover:text-wit transition-colors">
+              Algemene voorwaarden
+            </a>
+            <a href="/documenten/privacy-statement.pdf" target="_blank" rel="noopener noreferrer"
+              className="hover:text-wit transition-colors">
+              Privacystatement
+            </a>
+          </div>
         </div>
         <p className="border-t border-wit/10 pt-4">© {new Date().getFullYear()} Salacia · Alle rechten voorbehouden</p>
       </div>

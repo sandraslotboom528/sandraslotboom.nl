@@ -11,6 +11,8 @@ const navLinks = [
   { href: '/over-mij',      label: 'Over mij'     },
   { href: '/aanbod',        label: 'Aanbod'       },
   { href: '/stiltemiddag',  label: 'Stiltemiddag' },
+  { href: '/gratis',        label: 'Gratis'       },
+  { href: '/blog',          label: 'Blog'         },
   { href: '/contact',       label: 'Contact'      },
 ];
 
