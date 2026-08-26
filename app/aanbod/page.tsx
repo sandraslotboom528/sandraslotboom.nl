@@ -12,8 +12,8 @@ const diensten = [
   },
   {
     naam: 'Neuro Emotionele Integratie',
-    beschrijving: '[Korte beschrijving van deze behandeling: voor wie, waarvoor en wat iemand kan verwachten.]',
-    link: '/contact',
+    beschrijving: 'Voor wie vastloopt in patronen die zich blijven herhalen — bevrijd wat onbewust vastzit, met de wijsheid van de 5 elementen.',
+    link: '/neuro-emotionele-integratie',
   },
   {
     naam: 'Inner essence journey',
@@ -22,8 +22,9 @@ const diensten = [
   },
   {
     naam: 'Online acupressuur',
-    beschrijving: '[Korte beschrijving van deze behandeling: voor wie, waarvoor en wat iemand kan verwachten.]',
-    link: '/contact',
+    beschrijving: 'Wil je zelf aan de slag met de 5 elementen? Bekijk dan mijn aanbod in de Acupressuur Academy.',
+    link: 'https://salacia.kennis.shop/',
+    external: true,
   },
 ];
 
@@ -47,7 +48,12 @@ export default function AanbodPage() {
               <div key={dienst.naam} className="bg-wit rounded-2xl p-8 shadow-sm border border-primair/10">
                 <h2 className="text-xl font-bold text-primair mb-2">{dienst.naam}</h2>
                 <p className="text-tekst/70 leading-relaxed mb-4">{dienst.beschrijving}</p>
-                <Link href={dienst.link} className="font-bold text-accent hover:underline">Meer info →</Link>
+                {dienst.external ? (
+                  <a href={dienst.link} target="_blank" rel="noopener noreferrer"
+                    className="font-bold text-accent hover:underline">Meer info →</a>
+                ) : (
+                  <Link href={dienst.link} className="font-bold text-accent hover:underline">Meer info →</Link>
+                )}
               </div>
             ))}
           </div>
