@@ -7,10 +7,11 @@ import Link from 'next/link';
 const KENNIS_SHOP_URL = 'https://salacia.kennis.shop/';
 
 const navLinks = [
-  { href: '/',         label: 'Home'     },
-  { href: '/over-mij', label: 'Over mij' },
-  { href: '/aanbod',   label: 'Aanbod'   },
-  { href: '/contact',  label: 'Contact'  },
+  { href: '/',              label: 'Home'         },
+  { href: '/over-mij',      label: 'Over mij'     },
+  { href: '/aanbod',        label: 'Aanbod'       },
+  { href: '/stiltemiddag',  label: 'Stiltemiddag' },
+  { href: '/contact',       label: 'Contact'      },
 ];
 
 export default function Header() {

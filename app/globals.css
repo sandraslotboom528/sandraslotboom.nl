@@ -104,6 +104,11 @@ body {
   background-position: center 5%;
 }
 
+/* Hero op de stiltemiddag-pagina: gecentreerd op het midden van de foto. */
+.hero-section-stiltemiddag {
+  background-position: center 55%;
+}
+
 /* Sectie die direct na de hero komt en eroverheen schuift.
    Moet een dekkende achtergrond hebben, anders blijft de hero zichtbaar. */
 .hero-cover {

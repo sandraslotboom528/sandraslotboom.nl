@@ -17,8 +17,8 @@ const diensten = [
   },
   {
     naam: 'Inner essence journey',
-    beschrijving: '[Korte beschrijving van deze behandeling: voor wie, waarvoor en wat iemand kan verwachten.]',
-    link: '/contact',
+    beschrijving: 'Voor vrouwen die altijd aan staan — een lichaamsgerichte reis naar diepe rust en helderheid.',
+    link: '/inner-essence-journey',
   },
   {
     naam: 'Online acupressuur',
