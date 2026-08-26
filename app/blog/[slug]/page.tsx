@@ -37,11 +37,24 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       )}
 
       <div className="space-y-4 text-tekst/80 leading-relaxed">
-        {post.inhoud.map((blok, i) =>
-          'kop' in blok
-            ? <h2 key={i} className="text-2xl font-bold text-primair pt-4">{blok.kop}</h2>
-            : <p key={i}>{blok.tekst}</p>
-        )}
+        {post.inhoud.map((blok, i) => {
+          if ('kop' in blok) {
+            return <h2 key={i} className="text-2xl font-bold text-primair pt-4">{blok.kop}</h2>;
+          }
+          if (blok.linkTekst && blok.linkHref) {
+            const [voor, na] = blok.tekst.split(blok.linkTekst);
+            return (
+              <p key={i}>
+                {voor}
+                <Link href={blok.linkHref} className="font-bold text-accent hover:underline">
+                  {blok.linkTekst}
+                </Link>
+                {na}
+              </p>
+            );
+          }
+          return <p key={i}>{blok.tekst}</p>;
+        })}
       </div>
     </section>
   );

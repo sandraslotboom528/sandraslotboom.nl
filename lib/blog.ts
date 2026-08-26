@@ -5,9 +5,12 @@
 //
 //  Elk blok in `inhoud` is óf een subkop ({ kop: '...' })
 //  óf een alinea ({ tekst: '...' }).
+//  Een alinea kan een link naar een andere blog/pagina bevatten door
+//  linkTekst (het stukje tekst dat moet linken) en linkHref (het pad)
+//  toe te voegen, bijv. { tekst: '...', linkTekst: 'mijn vorige blog', linkHref: '/blog/xxx' }.
 // ════════════════════════════════════════════════════════════
 
-export type BlogBlock = { kop: string } | { tekst: string };
+export type BlogBlock = { kop: string } | { tekst: string; linkTekst?: string; linkHref?: string };
 
 export interface BlogPost {
   slug: string;
@@ -58,6 +61,51 @@ export const blogPosts: BlogPost[] = [
 
       { kop: 'Tot slot' },
       { tekst: 'De relatie tussen Hout en Vuur laat zien dat groei en bloei geen twee gescheiden fasen zijn, maar een doorlopende cyclus waarin de een de ander voedt. Visie zonder uiting blijft onvervuld; vreugde zonder richting blijft vluchtig. In het lichaam vertaalt zich dit naar de samenwerking tussen Lever en Hart, tussen de "generaal" die de weg wijst en de "keizer" die de vervulling ervaart. Wie deze cyclus begrijpt, leert niet alleen iets over de Chinese geneeskunde, maar ook over de eigen balans tussen plannen en beleven — tussen het zaadje planten en het bloeien vieren.' },
+    ],
+  },
+  {
+    slug: 'hart-en-milt',
+    titel: 'De keizer en de minister: hoe Hart en Milt elkaar voeden',
+    datum: '2026-08-27',
+    samenvatting: 'Na Hout en Vuur volgt de volgende stap in de cyclus: Vuur dat Aarde voedt, zoals as de bodem verrijkt — over hoe uitbundigheid landt in stabiliteit en zorg.',
+    foto: '/fotos/blog-vuur-aarde.jpg',
+    inhoud: [
+      {
+        tekst: 'In mijn vorige blog heb je kunnen lezen over de relatie tussen Hout en Vuur. Na Hout dat Vuur voedt, is de volgende stap in de cyclus die van Vuur naar Aarde: het vuur dat verbrandt en as achterlaat, en die as die de aarde verrijkt. Wat op het eerste gezicht een eenvoudig natuurbeeld lijkt, draagt in de Chinese geneeskunde een diepe laag betekenis over wat er gebeurt ná de bloei, over hoe uitbundigheid overgaat in stabiliteit, en hoe vreugde uiteindelijk landt in voeding en zorg.',
+        linkTekst: 'mijn vorige blog',
+        linkHref: '/blog/hout-en-vuur',
+      },
+
+      { kop: 'De voedende cyclus: van as tot aarde' },
+      { tekst: 'In de voedende cyclus brengt elk element het volgende voort zoals een moeder haar kind voedt. Vuur brengt Aarde voort: wanneer een vuur is uitgebrand, blijft as achter, en as verrijkt de bodem. Dit is meer dan een toevallig natuurkundig gegeven, het markeert een overgang in de cyclus van expansie naar consolidatie. Waar Hout en Vuur samen de opgaande, naar buiten gerichte beweging van groei en bloei vormen, staat Aarde voor het tegenovergestelde: verzameling, verankering, het "thuiskomen" na de uitbundigheid.' },
+      { tekst: 'Deze overgang is cruciaal. Zonder Aarde zou Vuur eindeloos blijven branden zonder ooit iets op te leveren, energie die verdampt in plaats van neerslaat tot iets bruikbaars. De relatie tussen Vuur en Aarde laat zien dat pure vreugde en expressie op zichzelf niet genoeg zijn; ze hebben een landingsplaats nodig om betekenisvol te worden.' },
+
+      { kop: 'Vuur als moeder: warmte die voedt' },
+      { tekst: 'In de Organentheorie wordt Aarde geassocieerd met de Milt en de Maag, met de Organen die verantwoordelijk zijn voor spijsvertering, transformatie en het omzetten van voedsel in bruikbare Qi en Bloed. De Milt wordt wel de "minister van transport en transformatie" genoemd: ze zorgt dat wat binnenkomt, wordt omgezet in iets voedends voor het hele lichaam.' },
+      { tekst: 'Vuur voedt deze functie letterlijk en figuurlijk. Fysiologisch is er in de Chinese geneeskunde een nauw verband tussen Hart-Yang (warmte) en Milt-functie: net zoals voedsel in een pan warmte nodig heeft om gekookt en verteerd te worden, heeft de Milt de warmte van het Hart-Vuur nodig om voedsel goed te kunnen transformeren. Dit verklaart een klassiek klinisch beeld: mensen met een zwak of koud spijsverteringsstelsel, een opgeblazen gevoel, vermoeidheid na het eten, een gevoel van zwaarte, hebben vaak baat bij het versterken van juist deze Vuur-Aarde relatie, bijvoorbeeld met warme, gekookte voeding in plaats van rauwkost.' },
+      { tekst: 'Maar de symboliek reikt verder dan spijsvertering alleen. Net zoals de Milt voedsel omzet in bruikbare energie, "verteert" Aarde ook de ervaringen en emoties die uit Vuur voortkomen. Vreugde die geen vervolg krijgt, verdampt. Vreugde die wordt "verteerd", gereflecteerd, gedeeld, geïntegreerd, wordt tot iets voedends: herinnering, verbondenheid, dankbaarheid.' },
+
+      { kop: 'Aarde als kind: het landingspunt van bloei' },
+      { tekst: 'Als Vuur de fase van bloei en expressie is, is Aarde de fase van integratie en zorg. Waar Vuur naar buiten straalt, keert Aarde naar binnen: het is de energie van het midden, van stabiliteit, van het besef "ik ben genoeg, hier, nu". In de seizoenscyclus wordt Aarde traditioneel geassocieerd met de overgangen tussen de seizoenen, met name de late zomer, het moment vlak na het hoogtepunt van de zomerse Vuurenergie, wanneer de natuur begint aan het proces van rijping en oogst.' },
+      { tekst: 'Dit late-zomer-moment is symbolisch veelzeggend. Het is niet toevallig dat Aarde volgt op het hoogtepunt van Vuur: na de climax van bloei en expansie is er een natuurlijke behoefte aan vertraging, aan het "binnenhalen van de oogst", het omzetten van wat gegroeid en gebloeid is in iets dat voedt en duurt. Mensen met een sterke Aarde-kwaliteit worden vaak beschreven als zorgzaam, betrouwbaar en gericht op het welzijn van anderen. Ze zijn de mensen die na het feest opruimen, die zorgen dat iedereen genoeg te eten heeft, die verbinding onderhouden lang nadat de opwinding is weggeëbd.' },
+
+      { kop: 'Wanneer de relatie uit balans raakt' },
+      { tekst: 'Ook deze moeder-kind relatie kent klassieke disbalansen: wanneer Vuur onvoldoende voedt, en wanneer Vuur de Aarde overweldigt.' },
+      { tekst: 'Onvoldoende voeding (zwak Vuur dat Aarde niet ondersteunt) ontstaat wanneer er te weinig Hart-Yang of algehele warmte is om de Milt te ondersteunen. Het resultaat is vaak een koud, traag spijsverteringsstelsel: weinig eetlust, een gevoel van zwaarte, vermoeidheid na maaltijden, een bleek gelaat. Psychologisch kan dit zich vertalen naar een gebrek aan levendigheid in het dagelijks leven, weinig plezier in eten, in koken, in de dagelijkse rituelen van zorg voor zichzelf en anderen.' },
+      { tekst: 'Overweldiging (te veel Vuur dat Aarde uitput) ontstaat wanneer overmatige hitte, vaak door stress, te veel prikkels, of een ongezonde levensstijl, de Miltfunctie juist verstoort in de andere richting: Hittesymptomen zoals een brandend gevoel in de maag, overmatige eetlust gevolgd door schuldgevoel, of een rusteloze geest die geen rust vindt in eenvoudige, aardse bezigheden. Hier zien we een patroon dat veel mensen herkennen uit het moderne leven: een overprikkeld zenuwstelsel dat de simpele, voedende activiteiten van het dagelijks leven, koken, rustig eten, rusten, niet meer als bevredigend ervaart, omdat het systeem verslaafd is geraakt aan constante stimulatie.' },
+      { tekst: 'Beide patronen laten zien dat de balans tussen Vuur en Aarde essentieel is voor welzijn: te weinig vuur laat het leven kil en smakeloos aanvoelen, te veel vuur brandt de aarde uit voordat er iets kan groeien.' },
+
+      { kop: 'De psychologische laag: van vieren naar verzorgen' },
+      { tekst: 'Er schuilt een diepere laag in deze relatie die verder reikt dan fysiologie. Vuurenergie is gericht op het moment, op expressie, op verbinding die zichtbaar en voelbaar is. Aarde-energie is gericht op continuïteit, op de vraag: wat blijft er over als het feest voorbij is? Wie zorgt er voor de dagen ná de viering?' },
+      { tekst: 'Veel mensen herkennen een neiging naar een van beide polen. Er zijn mensen die schitteren in het moment, sociaal, warm, de ziel van het feest, maar die moeite hebben met de rustige, herhalende zorgtaken die een leven dragen: koken, structuur bieden, er dag in dag uit voor anderen zijn zonder applaus. Andersom zijn er mensen die uitstekend zijn in zorgen en voeden, maar die zichzelf voorbijlopen in het proces, die zo gericht zijn op het welzijn van anderen dat er weinig ruimte overblijft voor hun eigen vreugde en expressie.' },
+      { tekst: 'De Vuur-Aarde relatie suggereert dat beide kwaliteiten elkaar nodig hebben. Vreugde zonder zorg wordt vluchtig en uiteindelijk uitputtend, een leven van pieken zonder fundament. Zorg zonder vreugde wordt plichtmatig en leeg, voeding die zelf niet gevoed wordt. Pas wanneer Vuur goed doorstroomt naar Aarde, wanneer bloei mag landen in iets dat voedt en blijft, ontstaat een gevoel van volheid dat niet afhankelijk is van constante stimulatie.' },
+
+      { kop: 'Praktische betekenis: hoe herken je dit patroon bij jezelf' },
+      { tekst: 'In de praktijk zien we deze dynamiek regelmatig terug bij cliënten met spijsverteringsklachten die samengaan met een onrustig gemoed, een combinatie die in de Chinese geneeskunde vaak wijst op een verstoorde Hart-Milt relatie. Punten die zowel het Hart als de Milt ondersteunen worden in de praktijk vaak samen ingezet om deze doorstroming van moeder naar kind te herstellen: het kalmeren van overmatige Hitte terwijl tegelijk de voedende functie van de Milt wordt ondersteund.' },
+      { tekst: 'Op leefstijlniveau betekent dit dat het waardevol kan zijn om bewust momenten van vieren te laten overgaan in momenten van verzorgen, een feestelijke avond af te sluiten met rust in plaats van door te jagen naar de volgende prikkel, of om na een periode van uitbundigheid en sociale activiteit bewust tijd vrij te maken voor eenvoudige, voedende rituelen: samen koken, rustig eten, vroeg naar bed.' },
+
+      { kop: 'Tot slot' },
+      { tekst: 'De relatie tussen Vuur en Aarde laat zien dat bloei pas werkelijk vrucht draagt wanneer ze landt in iets dat voedt en duurt. Vreugde zonder verankering verdampt; zorg zonder vreugde verstart. In het lichaam vertaalt zich dit naar de samenwerking tussen Hart en Milt, tussen de warmte die verteert en de aarde die voedt. Wie deze cyclus begrijpt, leert niet alleen iets over de Chinese geneeskunde, maar ook over de eigen balans tussen vieren en verzorgen, tussen de vlam en de oogst die zij mogelijk maakt.' },
     ],
   },
 ];
