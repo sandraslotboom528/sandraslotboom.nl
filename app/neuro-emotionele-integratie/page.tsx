@@ -56,25 +56,32 @@ export default function NeiPage() {
 
         {/* Wat is NEI precies */}
         <section className="bg-wit">
-          <div className="max-w-3xl mx-auto px-6 py-16">
-            <h2 className="text-2xl font-bold text-primair mb-6 reveal">Wat is NEI precies?</h2>
-            <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-              NEI is een methode die helpt om onverwerkte emoties, overtuigingen of trauma&apos;s op te sporen én
-              los te laten.
-            </p>
-            <p className="font-bold text-primair mb-6 reveal">Zonder lange gesprekken of herbeleving.</p>
-            <p className="text-tekst/80 leading-relaxed mb-8 reveal">
-              NEI maakt gebruik van een biotensor om contact te maken met het onderbewuste, daar waar oude
-              patronen worden opgeslagen. Dat kunnen emoties zijn, maar ook angsten, belemmerende overtuigingen of
-              gemiste basisbehoeften. Iedereen heeft dit in zijn onderbewuste opgeslagen en dit kan tot allerlei
-              klachten leiden.
-            </p>
-            <p className="text-tekst/80 leading-relaxed mb-4 reveal">We kijken naar:</p>
-            <ul id="nei-kijken-lijst" className="space-y-2 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
-              <li>Welke elementen (Hout, Vuur, Aarde, Metaal, Water) uit balans zijn</li>
-              <li>Welke emoties daar energetisch bij horen</li>
-              <li>En hoe we jouw energie weer kunnen laten stromen</li>
-            </ul>
+          <div className="max-w-5xl mx-auto px-6 py-16">
+            <div className="two-col">
+              <div className="col-text">
+                <h2 className="text-2xl font-bold text-primair mb-6 reveal">Wat is NEI precies?</h2>
+                <p className="text-tekst/80 leading-relaxed mb-4 reveal">
+                  NEI is een methode die helpt om onverwerkte emoties, overtuigingen of trauma&apos;s op te sporen
+                  én los te laten.
+                </p>
+                <p className="font-bold text-primair mb-6 reveal">Zonder lange gesprekken of herbeleving.</p>
+                <p className="text-tekst/80 leading-relaxed mb-8 reveal">
+                  NEI maakt gebruik van een biotensor om contact te maken met het onderbewuste, daar waar oude
+                  patronen worden opgeslagen. Dat kunnen emoties zijn, maar ook angsten, belemmerende overtuigingen
+                  of gemiste basisbehoeften. Iedereen heeft dit in zijn onderbewuste opgeslagen en dit kan tot
+                  allerlei klachten leiden.
+                </p>
+                <p className="text-tekst/80 leading-relaxed mb-4 reveal">We kijken naar:</p>
+                <ul id="nei-kijken-lijst" className="space-y-2 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
+                  <li>Welke elementen (Hout, Vuur, Aarde, Metaal, Water) uit balans zijn</li>
+                  <li>Welke emoties daar energetisch bij horen</li>
+                  <li>En hoe we jouw energie weer kunnen laten stromen</li>
+                </ul>
+              </div>
+              <div className="col-image">
+                <img src="/fotos/website-nei-1.jpg" alt="De vijf elementen" />
+              </div>
+            </div>
           </div>
         </section>
 

@@ -34,19 +34,26 @@ export default function OverMijPage() {
 
         {/* Je lichaam liegt niet */}
         <section className="bg-wit">
-          <div className="max-w-3xl mx-auto px-6 py-16">
-            <h2 className="text-2xl font-bold text-primair mb-6 reveal">Je lichaam liegt niet</h2>
-            <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-              Ik geloof dat ons lichaam zoveel meer weet dan we met ons hoofd kunnen bedenken. Het fluistert, roept
-              soms, en heeft altijd een verhaal te vertellen. Mijn rol is om ruimte te bieden waarin je mag zakken uit
-              het denken en mag gaan voelen. Zonder oordeel. Zonder moeten.
-            </p>
-            <p className="text-tekst/80 leading-relaxed reveal">
-              Mijn visie is simpel en diep tegelijk: het lichaam liegt nooit. Het draagt wijsheid, herinneringen en
-              signalen die we soms zijn vergeten te voelen. In mijn werk nodig ik je uit om weer te luisteren. Om te
-              zakken uit je hoofd, in je lijf. Niet om iets te "repareren", maar om aanwezig te zijn met wat er is.
-              Van daaruit ontstaat ontspanning, ruimte en vaak ook heling.
-            </p>
+          <div className="max-w-5xl mx-auto px-6 py-16">
+            <div className="two-col">
+              <div className="col-text">
+                <h2 className="text-2xl font-bold text-primair mb-6 reveal">Je lichaam liegt niet</h2>
+                <p className="text-tekst/80 leading-relaxed mb-4 reveal">
+                  Ik geloof dat ons lichaam zoveel meer weet dan we met ons hoofd kunnen bedenken. Het fluistert,
+                  roept soms, en heeft altijd een verhaal te vertellen. Mijn rol is om ruimte te bieden waarin je
+                  mag zakken uit het denken en mag gaan voelen. Zonder oordeel. Zonder moeten.
+                </p>
+                <p className="text-tekst/80 leading-relaxed reveal">
+                  Mijn visie is simpel en diep tegelijk: het lichaam liegt nooit. Het draagt wijsheid, herinneringen
+                  en signalen die we soms zijn vergeten te voelen. In mijn werk nodig ik je uit om weer te
+                  luisteren. Om te zakken uit je hoofd, in je lijf. Niet om iets te "repareren", maar om aanwezig te
+                  zijn met wat er is. Van daaruit ontstaat ontspanning, ruimte en vaak ook heling.
+                </p>
+              </div>
+              <div className="col-image">
+                <img src="/fotos/website-over-mij.jpg" alt="Salacia in behandeling" />
+              </div>
+            </div>
           </div>
         </section>
 

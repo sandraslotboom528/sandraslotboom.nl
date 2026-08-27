@@ -41,38 +41,45 @@ export default function AcupunctuurPage() {
 
       {/* Waarom symptoombestrijding niet genoeg is */}
       <section className="bg-wit">
-        <div className="max-w-3xl mx-auto px-6 py-16">
-          <h2 className="text-2xl font-bold text-primair mb-6 reveal">
-            Waarom symptoombestrijding vaak niet genoeg is
-          </h2>
-          <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-            Stel je voor: je voelt je al maanden vermoeid. Je huisarts vindt niks afwijkends in je bloedwaarden.
-            "Gewoon even doorbijten," zeggen ze. Je probeert meer te sporten, gezonder te eten, eerder naar bed te
-            gaan. Misschien wordt het iets minder erg. Maar de spanning blijft. De vermoeidheid komt terug. Je
-            lichaam voelt alsof het niet meewerkt.
-          </p>
-          <p className="text-tekst/80 leading-relaxed mb-6 reveal">Waarom?</p>
-          <p className="text-tekst/80 leading-relaxed mb-6 reveal">
-            Omdat er een diepere disbalans is die niet wordt aangepakt. Je levensstijl kan worden aangepast, je
-            symptomen kunnen worden gedempt, maar als de energiestroom in je lichaam geblokkeerd is, blijven de
-            signalen terugkomen.
-          </p>
-          <p className="font-bold text-primair mb-4 reveal">Denk aan een rivier die verstopt raakt.</p>
-          <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-            Als er ergens een blokkade zit, kan het water niet goed stromen. Het stagneert. Er ontstaat druk.
-            Sommige plekken krijgen te veel water, andere te weinig. Zo werkt het ook in je lichaam. In de Chinese
-            geneeskunde noemen we die stroom Qi, je levensenergie, en die stroomt door meridianen, een netwerk van
-            energiebanen door je hele lichaam.
-          </p>
-          <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-            Als die stroom ergens vastloopt, ontstaan signalen: vermoeidheid die maar niet weggaat, spanning die
-            zich ophoopt in je lichaam, slaapproblemen of een gevoel dat je lichaam niet meer meewerkt.
-          </p>
-          <p className="font-bold text-primair mb-6 reveal">Klachten die niemand kan verklaren.</p>
-          <p className="text-tekst/80 leading-relaxed reveal">
-            Acupunctuur herstelt die stroom. Het verwijdert de blokkade. En zodra de energie weer kan stromen zoals
-            het hoort, kan je lichaam zichzelf reguleren en herstellen.
-          </p>
+        <div className="max-w-5xl mx-auto px-6 py-16">
+          <div className="two-col">
+            <div className="col-text">
+              <h2 className="text-2xl font-bold text-primair mb-6 reveal">
+                Waarom symptoombestrijding vaak niet genoeg is
+              </h2>
+              <p className="text-tekst/80 leading-relaxed mb-4 reveal">
+                Stel je voor: je voelt je al maanden vermoeid. Je huisarts vindt niks afwijkends in je
+                bloedwaarden. "Gewoon even doorbijten," zeggen ze. Je probeert meer te sporten, gezonder te eten,
+                eerder naar bed te gaan. Misschien wordt het iets minder erg. Maar de spanning blijft. De
+                vermoeidheid komt terug. Je lichaam voelt alsof het niet meewerkt.
+              </p>
+              <p className="text-tekst/80 leading-relaxed mb-6 reveal">Waarom?</p>
+              <p className="text-tekst/80 leading-relaxed mb-6 reveal">
+                Omdat er een diepere disbalans is die niet wordt aangepakt. Je levensstijl kan worden aangepast, je
+                symptomen kunnen worden gedempt, maar als de energiestroom in je lichaam geblokkeerd is, blijven de
+                signalen terugkomen.
+              </p>
+              <p className="font-bold text-primair mb-4 reveal">Denk aan een rivier die verstopt raakt.</p>
+              <p className="text-tekst/80 leading-relaxed mb-4 reveal">
+                Als er ergens een blokkade zit, kan het water niet goed stromen. Het stagneert. Er ontstaat druk.
+                Sommige plekken krijgen te veel water, andere te weinig. Zo werkt het ook in je lichaam. In de
+                Chinese geneeskunde noemen we die stroom Qi, je levensenergie, en die stroomt door meridianen, een
+                netwerk van energiebanen door je hele lichaam.
+              </p>
+              <p className="text-tekst/80 leading-relaxed mb-4 reveal">
+                Als die stroom ergens vastloopt, ontstaan signalen: vermoeidheid die maar niet weggaat, spanning
+                die zich ophoopt in je lichaam, slaapproblemen of een gevoel dat je lichaam niet meer meewerkt.
+              </p>
+              <p className="font-bold text-primair mb-6 reveal">Klachten die niemand kan verklaren.</p>
+              <p className="text-tekst/80 leading-relaxed reveal">
+                Acupunctuur herstelt die stroom. Het verwijdert de blokkade. En zodra de energie weer kan stromen
+                zoals het hoort, kan je lichaam zichzelf reguleren en herstellen.
+              </p>
+            </div>
+            <div className="col-image">
+              <img src="/fotos/website-acupunctuur-1.jpg" alt="Acupunctuurnaald" />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -109,46 +116,54 @@ export default function AcupunctuurPage() {
 
       {/* Stagnatie en tekort */}
       <section className="bg-wit">
-        <div className="max-w-3xl mx-auto px-6 py-16">
-          <h2 className="text-2xl font-bold text-primair mb-6 reveal">
-            2 hoofdoorzaken van klachten: stagnatie en tekort
-          </h2>
-          <p className="text-tekst/80 leading-relaxed mb-8 reveal">
-            In de Chinese geneeskunde zijn er vaak twee hoofdredenen waarom je lichaam signalen geeft:
-          </p>
+        <div className="max-w-5xl mx-auto px-6 py-16">
+          <div className="two-col">
+            <div className="col-text">
+              <h2 className="text-2xl font-bold text-primair mb-6 reveal">
+                2 hoofdoorzaken van klachten: stagnatie en tekort
+              </h2>
+              <p className="text-tekst/80 leading-relaxed mb-8 reveal">
+                In de Chinese geneeskunde zijn er vaak twee hoofdredenen waarom je lichaam signalen geeft:
+              </p>
 
-          <h3 className="text-lg font-bold text-primair mb-3 reveal">1. Stagnatie van Qi</h3>
-          <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-            De energie in je lichaam loopt ergens vast. Dat geeft spanning, onrust, een gevoel van vastzitten. Denk
-            aan:
-          </p>
-          <ul id="stagnatie-lijst" className="space-y-2 mb-4 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
-            <li>Spanning die zich ophoopt in je lijf</li>
-            <li>Stress die je niet kunt loslaten</li>
-            <li>Emoties die vastzitten</li>
-            <li>Een gevoel van overweldiging</li>
-            <li>Klachten die steeds terugkomen, hoe goed je ook zorgt voor jezelf</li>
-          </ul>
-          <p className="text-tekst/80 leading-relaxed mb-10 reveal">
-            De behandeling is dan gericht op het opheffen van de stagnatie zodat de energie weer vrij kan stromen
-            en je lichaam weer kan ontspannen.
-          </p>
+              <h3 className="text-lg font-bold text-primair mb-3 reveal">1. Stagnatie van Qi</h3>
+              <p className="text-tekst/80 leading-relaxed mb-4 reveal">
+                De energie in je lichaam loopt ergens vast. Dat geeft spanning, onrust, een gevoel van vastzitten.
+                Denk aan:
+              </p>
+              <ul id="stagnatie-lijst" className="space-y-2 mb-4 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
+                <li>Spanning die zich ophoopt in je lijf</li>
+                <li>Stress die je niet kunt loslaten</li>
+                <li>Emoties die vastzitten</li>
+                <li>Een gevoel van overweldiging</li>
+                <li>Klachten die steeds terugkomen, hoe goed je ook zorgt voor jezelf</li>
+              </ul>
+              <p className="text-tekst/80 leading-relaxed mb-10 reveal">
+                De behandeling is dan gericht op het opheffen van de stagnatie zodat de energie weer vrij kan
+                stromen en je lichaam weer kan ontspannen.
+              </p>
 
-          <h3 className="text-lg font-bold text-primair mb-3 reveal">2. Tekort aan Qi</h3>
-          <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-            Er is simpelweg te weinig energie om door je lichaam te stromen. Dat herken je aan:
-          </p>
-          <ul id="tekort-lijst" className="space-y-2 mb-4 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
-            <li>Chronische vermoeidheid, ook na genoeg slaap</li>
-            <li>Slapeloosheid; je lichaam heeft niet genoeg kracht om je slaap te reguleren</li>
-            <li>Een gevoel van uitputting</li>
-            <li>Traag herstel na inspanning of ziekte</li>
-            <li>Het gevoel dat je "op" bent</li>
-          </ul>
-          <p className="text-tekst/80 leading-relaxed reveal">
-            Dan is de behandeling gericht op het versterken van je Qi. En wat gebeurt er? Niet alleen verdwijnen je
-            signalen, je krijgt ook meer energie, meer veerkracht, meer kracht om je dag door te komen.
-          </p>
+              <h3 className="text-lg font-bold text-primair mb-3 reveal">2. Tekort aan Qi</h3>
+              <p className="text-tekst/80 leading-relaxed mb-4 reveal">
+                Er is simpelweg te weinig energie om door je lichaam te stromen. Dat herken je aan:
+              </p>
+              <ul id="tekort-lijst" className="space-y-2 mb-4 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
+                <li>Chronische vermoeidheid, ook na genoeg slaap</li>
+                <li>Slapeloosheid; je lichaam heeft niet genoeg kracht om je slaap te reguleren</li>
+                <li>Een gevoel van uitputting</li>
+                <li>Traag herstel na inspanning of ziekte</li>
+                <li>Het gevoel dat je "op" bent</li>
+              </ul>
+              <p className="text-tekst/80 leading-relaxed reveal">
+                Dan is de behandeling gericht op het versterken van je Qi. En wat gebeurt er? Niet alleen
+                verdwijnen je signalen, je krijgt ook meer energie, meer veerkracht, meer kracht om je dag door te
+                komen.
+              </p>
+            </div>
+            <div className="col-image">
+              <img src="/fotos/website-acupunctuur-2.jpg" alt="Acupunctuurbehandeling" />
+            </div>
+          </div>
         </div>
       </section>
 
