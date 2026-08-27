@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Salacia · [Jouw tagline]',
+    default: 'Salacia · Acupunctuur en acupressuur',
     template: '%s · Salacia',
   },
   description: '[Korte beschrijving van wat je doet en voor wie]',
