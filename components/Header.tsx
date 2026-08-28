@@ -9,7 +9,15 @@ const KENNIS_SHOP_URL = 'https://salacia.kennis.shop/';
 const navLinks = [
   { href: '/',              label: 'Home'         },
   { href: '/over-mij',      label: 'Over mij'     },
-  { href: '/aanbod',        label: 'Aanbod'       },
+  {
+    href: '/aanbod', label: 'Aanbod',
+    children: [
+      { href: '/acupunctuur',                  label: 'Acupunctuurbehandeling'        },
+      { href: '/neuro-emotionele-integratie',  label: 'Neuro Emotionele Integratie'   },
+      { href: '/inner-essence-journey',        label: 'Inner essence journey'         },
+      { href: 'https://salacia.kennis.shop/',  label: 'Online acupressuur', external: true },
+    ],
+  },
   { href: '/stiltemiddag',  label: 'Stiltemiddag' },
   { href: '/gratis',        label: 'Gratis'       },
   { href: '/blog',          label: 'Blog'         },
@@ -31,10 +39,37 @@ export default function Header() {
         {/* Navigatie — desktop */}
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           {navLinks.map(link => (
-            <Link key={link.href} href={link.href}
-              className="text-tekst hover:text-primair transition-colors">
-              {link.label}
-            </Link>
+            link.children ? (
+              <div key={link.href} className="relative group">
+                <Link href={link.href}
+                  className="text-tekst hover:text-primair transition-colors flex items-center gap-1">
+                  {link.label}
+                  <span className="text-xs">▾</span>
+                </Link>
+                <div className="absolute left-0 top-full pt-2 hidden group-hover:block">
+                  <div className="bg-wit rounded-xl shadow-lg border border-primair/10 py-2 min-w-64">
+                    {link.children.map(child =>
+                      child.external ? (
+                        <a key={child.href} href={child.href} target="_blank" rel="noopener noreferrer"
+                          className="block px-4 py-2 text-tekst hover:text-primair hover:bg-achtergrond transition-colors">
+                          {child.label}
+                        </a>
+                      ) : (
+                        <Link key={child.href} href={child.href}
+                          className="block px-4 py-2 text-tekst hover:text-primair hover:bg-achtergrond transition-colors">
+                          {child.label}
+                        </Link>
+                      )
+                    )}
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <Link key={link.href} href={link.href}
+                className="text-tekst hover:text-primair transition-colors">
+                {link.label}
+              </Link>
+            )
           ))}
           {KENNIS_SHOP_URL && (
             <a href={KENNIS_SHOP_URL} target="_blank" rel="noopener noreferrer"
@@ -58,11 +93,32 @@ export default function Header() {
       {open && (
         <nav className="md:hidden border-t border-primair/10 bg-wit px-6 py-5 flex flex-col gap-5 text-sm font-medium">
           {navLinks.map(link => (
-            <Link key={link.href} href={link.href}
-              className="text-tekst hover:text-primair transition-colors"
-              onClick={() => setOpen(false)}>
-              {link.label}
-            </Link>
+            <div key={link.href}>
+              <Link href={link.href}
+                className="text-tekst hover:text-primair transition-colors"
+                onClick={() => setOpen(false)}>
+                {link.label}
+              </Link>
+              {link.children && (
+                <div className="flex flex-col gap-4 mt-4 pl-4 border-l-2 border-primair/10">
+                  {link.children.map(child =>
+                    child.external ? (
+                      <a key={child.href} href={child.href} target="_blank" rel="noopener noreferrer"
+                        className="text-tekst/70 hover:text-primair transition-colors"
+                        onClick={() => setOpen(false)}>
+                        {child.label}
+                      </a>
+                    ) : (
+                      <Link key={child.href} href={child.href}
+                        className="text-tekst/70 hover:text-primair transition-colors"
+                        onClick={() => setOpen(false)}>
+                        {child.label}
+                      </Link>
+                    )
+                  )}
+                </div>
+              )}
+            </div>
           ))}
           {KENNIS_SHOP_URL && (
             <a href={KENNIS_SHOP_URL} target="_blank" rel="noopener noreferrer"
