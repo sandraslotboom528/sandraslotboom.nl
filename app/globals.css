@@ -87,10 +87,15 @@ body {
   }
 }
 
-/* Hero op de homepage: op mobiel portret.jpg, op desktop een eigen
+/* Hero op de homepage: op mobiel herosectie-home.png, op desktop een eigen
    losser gekaderde foto. Zet die foto op public/fotos/portret-homepage.jpg. */
 .hero-section-home {
-  background-image: url('/fotos/portret.jpg');
+  background-image: url('/fotos/herosectie-home.png');
+}
+@media (max-width: 768px) {
+  .hero-section-home {
+    background-position: center 25%;
+  }
 }
 @media (min-width: 769px) {
   .hero-section-home {
