@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 
 // ← Vul hier jouw Kennis Shop URL in (bijv. 'https://jouwbedrijf.kennis.shop')
@@ -26,6 +26,18 @@ const navLinks = [
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setDropdownOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   return (
     <header className="bg-wit border-b border-primair/10 relative">
@@ -40,29 +52,42 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           {navLinks.map(link => (
             link.children ? (
-              <div key={link.href} className="relative group">
-                <Link href={link.href}
-                  className="text-tekst hover:text-primair transition-colors flex items-center gap-1">
-                  {link.label}
-                  <span className="text-xs">▾</span>
-                </Link>
-                <div className="absolute left-0 top-full pt-2 hidden group-hover:block">
-                  <div className="bg-wit rounded-xl shadow-lg border border-primair/10 py-2 min-w-64">
-                    {link.children.map(child =>
-                      child.external ? (
-                        <a key={child.href} href={child.href} target="_blank" rel="noopener noreferrer"
-                          className="block px-4 py-2 text-tekst hover:text-primair hover:bg-achtergrond transition-colors">
-                          {child.label}
-                        </a>
-                      ) : (
-                        <Link key={child.href} href={child.href}
-                          className="block px-4 py-2 text-tekst hover:text-primair hover:bg-achtergrond transition-colors">
-                          {child.label}
-                        </Link>
-                      )
-                    )}
-                  </div>
+              <div key={link.href} className="relative" ref={dropdownRef}>
+                <div className="flex items-center gap-1">
+                  <Link href={link.href}
+                    className="text-tekst hover:text-primair transition-colors"
+                    onClick={() => setDropdownOpen(false)}>
+                    {link.label}
+                  </Link>
+                  <button type="button"
+                    onClick={() => setDropdownOpen(o => !o)}
+                    aria-label={dropdownOpen ? 'Behandelingen verbergen' : 'Behandelingen tonen'}
+                    aria-expanded={dropdownOpen}
+                    className="text-tekst hover:text-primair transition-colors p-1 -m-1">
+                    <span className={`inline-block text-xs transition-transform ${dropdownOpen ? 'rotate-180' : ''}`}>▾</span>
+                  </button>
                 </div>
+                {dropdownOpen && (
+                  <div className="absolute left-0 top-full pt-2">
+                    <div className="bg-wit rounded-xl shadow-lg border border-primair/10 py-2 min-w-64">
+                      {link.children.map(child =>
+                        child.external ? (
+                          <a key={child.href} href={child.href} target="_blank" rel="noopener noreferrer"
+                            onClick={() => setDropdownOpen(false)}
+                            className="block px-4 py-2 text-tekst hover:text-primair hover:bg-achtergrond transition-colors">
+                            {child.label}
+                          </a>
+                        ) : (
+                          <Link key={child.href} href={child.href}
+                            onClick={() => setDropdownOpen(false)}
+                            className="block px-4 py-2 text-tekst hover:text-primair hover:bg-achtergrond transition-colors">
+                            {child.label}
+                          </Link>
+                        )
+                      )}
+                    </div>
+                  </div>
+                )}
               </div>
             ) : (
               <Link key={link.href} href={link.href}
