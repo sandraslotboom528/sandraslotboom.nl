@@ -1,13 +1,15 @@
 'use client';
 import { useState } from 'react';
 
-// ← Vul hier jouw eigen e-mailadres in. Het formulier opent bij versturen
-// het e-mailprogramma van de bezoeker met een kant-en-klaar ingevuld bericht.
-const CONTACT_EMAIL = 'salacia.acupunctuur@gmail.com';
+// ← Vul hier jouw Web3Forms access key in. Vraag die gratis aan op
+// https://web3forms.com/ (vul je e-mailadres in, je krijgt de sleutel per mail).
+const WEB3FORMS_ACCESS_KEY = 'e999ca80-1196-4a7e-ab0f-f4d40b141b21';
 
 const inputClass =
   'w-full rounded-lg border border-primair/20 bg-wit px-4 py-2.5 text-tekst focus:outline-none focus:ring-2 focus:ring-primair';
 const labelClass = 'block text-sm font-medium text-tekst mb-1';
+
+type Status = 'idle' | 'versturen' | 'gelukt' | 'mislukt';
 
 export default function ContactForm() {
   const [voornaam, setVoornaam] = useState('');
@@ -15,19 +17,49 @@ export default function ContactForm() {
   const [telefoon, setTelefoon] = useState('');
   const [email, setEmail] = useState('');
   const [bericht, setBericht] = useState('');
+  const [status, setStatus] = useState<Status>('idle');
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+    setStatus('versturen');
 
-    const onderwerp = `Contactformulier website — ${voornaam} ${achternaam}`;
-    const inhoud =
-      `Naam: ${voornaam} ${achternaam}\n` +
-      `Telefoonnummer: ${telefoon || '-'}\n` +
-      `E-mailadres: ${email}\n\n` +
-      `Bericht:\n${bericht}`;
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          access_key: WEB3FORMS_ACCESS_KEY,
+          subject: `Contactformulier website — ${voornaam} ${achternaam}`,
+          Voornaam: voornaam,
+          Achternaam: achternaam,
+          Telefoonnummer: telefoon || '-',
+          'E-mailadres': email,
+          Bericht: bericht,
+        }),
+      });
+      const result = await response.json();
 
-    window.location.href =
-      `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(onderwerp)}&body=${encodeURIComponent(inhoud)}`;
+      if (result.success) {
+        setStatus('gelukt');
+        setVoornaam('');
+        setAchternaam('');
+        setTelefoon('');
+        setEmail('');
+        setBericht('');
+      } else {
+        setStatus('mislukt');
+      }
+    } catch {
+      setStatus('mislukt');
+    }
+  }
+
+  if (status === 'gelukt') {
+    return (
+      <p className="text-primair font-bold text-center py-8">
+        Bedankt voor je bericht! Ik neem zo snel mogelijk contact met je op.
+      </p>
+    );
   }
 
   return (
@@ -70,13 +102,16 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <button type="submit"
-          className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity">
-          Verstuur bericht →
+        <button type="submit" disabled={status === 'versturen'}
+          className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity disabled:opacity-60">
+          {status === 'versturen' ? 'Versturen...' : 'Verstuur bericht →'}
         </button>
-        <p className="text-tekst/60 text-sm mt-3">
-          Je e-mailprogramma opent met dit bericht al ingevuld, klaar om te versturen.
-        </p>
+        {status === 'mislukt' && (
+          <p className="text-red-600 text-sm mt-3">
+            Er ging iets mis bij het versturen. Probeer het nog eens, of mail direct naar
+            salacia.acupunctuur@gmail.com.
+          </p>
+        )}
       </div>
     </form>
   );
