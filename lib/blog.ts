@@ -491,6 +491,77 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'zelfherstellend-vermogen',
+    titel: 'Het zelfherstellende vermogen en de 5 elementen',
+    datum: '2026-08-31',
+    samenvatting: 'Ons lichaam herstelt zichzelf voortdurend — mits het de ruimte krijgt. Ontdek hoe elk van de vijf elementen een ander aspect van dat zelfherstellend vermogen ondersteunt.',
+    foto: '/fotos/blog-zelfherstel.jpg',
+    inhoud: [
+      { tekst: 'In een wereld die steeds sneller draait en waarin we vaak buiten onszelf zoeken naar oplossingen, vergeten we soms dat ons lichaam beschikt over een krachtig, natuurlijk mechanisme: het zelfherstellend vermogen. Dit vermogen zorgt ervoor dat ons lichaam zichzelf continu probeert te herstellen, balanceren en harmoniseren. Kleine wondjes helen vanzelf, een verkoudheid gaat meestal weer over, en na een periode van stress komen we, als we de juiste ruimte geven, weer tot rust.' },
+      { tekst: 'In de traditionele Chinese geneeskunde (TCM) staat dit zelfherstellend vermogen centraal. Gezondheid is geen statische toestand, maar een dynamisch evenwicht tussen lichaam, geest en omgeving. De vijf elementen, Hout, Vuur, Aarde, Metaal en Water, vormen een symbolische manier om dit evenwicht te begrijpen én te ondersteunen. In deze blog neem ik je mee in wat het zelfherstellend vermogen inhoudt, hoe het werkt, en hoe we het kunnen versterken door te leven in afstemming met de vijf elementen.' },
+
+      { kop: 'Wat is het zelfherstellend vermogen?' },
+      { tekst: 'Het zelfherstellend vermogen van het lichaam verwijst naar de aangeboren capaciteit van ons lichaam én onze geest om zichzelf in balans te brengen. Denk aan het reguleren van de lichaamstemperatuur, het afvoeren van afvalstoffen, het genezen van ontstekingen of het terugkeren naar rust na een emotionele gebeurtenis. Dit vermogen werkt continu en grotendeels onbewust. Ons zenuwstelsel, hormoonstelsel, immuunsysteem en zelfs onze darmen werken allemaal samen om ons in een toestand van homeostase, balans, te houden.' },
+      { tekst: 'Maar: het zelfherstellend vermogen heeft ruimte nodig. Rust. Aandacht. Voeding. Beweging. En bovenal: verbinding met onszelf. Wanneer we langdurig stress ervaren, ongezond eten, onze emoties onderdrukken of voorbijgaan aan onze grenzen, raakt dit vermogen uitgeput of uit balans.' },
+      { tekst: 'Hier kunnen de vijf elementen een waardevolle spiegel bieden. Elk element vertegenwoordigt niet alleen een seizoen of Orgaan, maar ook een bepaalde levenshouding, emotie en manier van zijn. Door per element te kijken hoe het bijdraagt aan herstel, krijgen we praktische handvatten om het natuurlijke evenwicht in onszelf te ondersteunen.' },
+
+      { kop: 'Het Houtelement – Groei, richting en flexibiliteit' },
+      { tekst: 'Hout staat voor de lente, en het vermogen om te groeien en richting te geven aan ons leven. Een gezond Houtelement zorgt voor soepelheid, fysiek én mentaal. De lever helpt bij het verwerken van emoties en het soepel laten stromen van Qi (levensenergie).' },
+      { tekst: 'Wanneer we in contact staan met ons Houtelement, kunnen we heldere keuzes maken, onze grenzen bewaken en onze creativiteit laten stromen. We herstellen gemakkelijker van stagnatie en kunnen letterlijk weer in beweging komen na vastzitten.' },
+      { tekst: 'Ondersteun je Hout-element door:' },
+      { lijst: [
+        'Naar buiten te gaan en te bewegen, vooral in de natuur.',
+        'Je frustraties en boosheid toe te laten en op een gezonde manier te uiten.',
+        'Je ruimte te nemen om nieuwe plannen te maken en in actie te komen.',
+      ] },
+
+      { kop: 'Het Vuurelement – Vreugde, verbinding en expressie' },
+      { tekst: 'Vuur hoort bij de zomer en de energie van vreugde, passie en verbinding. Het is het element van expressie, liefde en warmte. Een gezond Vuurelement zorgt voor een open hart, levendigheid en sociale verbondenheid, allemaal belangrijk voor emotioneel herstel.' },
+      { tekst: 'Wanneer het Vuur goed stroomt, voelen we ons gezien, geliefd en verbonden. Deze gevoelens versterken het parasympathische zenuwstelsel, dat essentieel is voor rust, vertering en herstel.' },
+      { tekst: 'Ondersteun je Vuurelement door:' },
+      { lijst: [
+        'Tijd te maken voor vreugde, spel en expressie.',
+        'Verbinding te zoeken met mensen bij wie je je veilig voelt.',
+        'Te mediteren op het hart, bijvoorbeeld via hartcoherentie of liefdevolle vriendelijkheid.',
+      ] },
+
+      { kop: 'Het Aarde-element – Gronding, zorg en balans' },
+      { tekst: 'Aarde hoort bij de nazomer en het vermogen om te voeden, zowel onszelf als anderen. Het staat voor stabiliteit, zachtheid en zorgzaamheid. De spijsvertering is letterlijk het centrum van het zelfherstellend vermogen: voeding omzetten in energie, afvalstoffen afvoeren, en zorgen voor voldoende reserves.' },
+      { tekst: 'Een sterk Aarde-element helpt je te gronden, te aarden in het hier en nu, en vanuit een rustige basis beslissingen te nemen. Wanneer je uitgeput bent, helpt Aarde je terug te keren naar eenvoud, regelmaat en zelfzorg.' },
+      { tekst: 'Ondersteun je Aarde-element door:' },
+      { lijst: [
+        'Warm, voedzaam en regelmatig te eten.',
+        'Te vertragen en tijd te nemen voor rustmomenten.',
+        'Grenzen te stellen aan zorgen voor anderen en ook voor jezelf te zorgen.',
+      ] },
+
+      { kop: 'Het Metaal-element – Loslaten, adem en zuivering' },
+      { tekst: 'Metaal hoort bij de herfst. Het is het element van loslaten, helderheid en structuur. Metaal nodigt ons uit om op te ruimen, fysiek, emotioneel en energetisch, zodat er weer ruimte komt voor iets nieuws.' },
+      { tekst: 'De ademhaling, verbonden aan de Longenergie, is een krachtig instrument voor herstel. Diepe ademhaling activeert het rustsysteem en helpt spanning los te laten. Metaal is ook verbonden met rouw, het toelaten en doorvoelen van verlies is essentieel om verder te kunnen.' },
+      { tekst: 'Ondersteun je Metaal-element door:' },
+      { lijst: [
+        'Diep en bewust te ademen, bijvoorbeeld via ademwerk of pranayama.',
+        'Je omgeving en je agenda op te ruimen.',
+        'Tijd te maken voor reflectie en stilte.',
+      ] },
+
+      { kop: 'Het Water-element – Rust, vertrouwen en essentie' },
+      { tekst: 'Water hoort bij de winter en staat voor onze diepste reserves en essentie. Het is het element van rust, stilte en overgave. Hier ligt de kern van het zelfherstellend vermogen: het vertrouwen dat het leven, en jijzelf, zich kunnen herstellen, mits er genoeg rust, tijd en bedding is.' },
+      { tekst: 'Een sterk Water-element geeft je een diepe innerlijke rust en veerkracht. Je hoeft niet altijd iets \'te doen\', soms is het de kunst om te zijn, te rusten, te luisteren naar wat er in je leeft.' },
+      { tekst: 'Ondersteun je Water-element door:' },
+      { lijst: [
+        'Voldoende te slapen en rust te nemen.',
+        'Tijd door te brengen in stilte of meditatie.',
+        'Vertrouwen te cultiveren in je eigen helende kracht.',
+      ] },
+
+      { kop: 'In harmonie leven met je natuurlijke ritme' },
+      { tekst: 'Wanneer we leven in verbinding met de elementen, leven we in verbinding met onszelf. Het zelfherstellend vermogen wordt niet \'gemaakt\', het wordt onthuld. Door de juiste omstandigheden te scheppen, kan het zich weer ontvouwen. Elk element nodigt je uit om een ander aspect van herstel te belichamen: bewegen, verbinden, voeden, loslaten en rusten.' },
+      { tekst: 'Vraag jezelf eens af: welk element mag ik op dit moment meer uitnodigen in mijn leven?' },
+      { tekst: 'Want hoe meer we durven te luisteren naar het fluisteren van ons lichaam, hoe minder het hoeft te schreeuwen.' },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
