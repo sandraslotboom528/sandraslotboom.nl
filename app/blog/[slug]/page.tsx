@@ -41,6 +41,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           if ('kop' in blok) {
             return <h2 key={i} className="text-2xl font-bold text-primair pt-4">{blok.kop}</h2>;
           }
+          if ('lijst' in blok) {
+            return (
+              <ul key={i} className="space-y-2 border-l-2 border-primair/20 pl-5">
+                {blok.lijst.map((item, j) => <li key={j}>{item}</li>)}
+              </ul>
+            );
+          }
           if (blok.linkTekst && blok.linkHref) {
             const [voor, na] = blok.tekst.split(blok.linkTekst);
             return (
