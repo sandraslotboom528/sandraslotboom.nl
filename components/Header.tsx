@@ -8,7 +8,6 @@ const KENNIS_SHOP_URL = 'https://salacia.kennis.shop/';
 
 const navLinks = [
   { href: '/',              label: 'Home'         },
-  { href: '/over-mij',      label: 'Over mij'     },
   {
     href: '/aanbod', label: 'Aanbod',
     children: [
@@ -21,6 +20,7 @@ const navLinks = [
   { href: '/stiltemiddag',  label: 'Stiltemiddag' },
   { href: '/gratis',        label: 'Gratis'       },
   { href: '/blog',          label: 'Blog'         },
+  { href: '/over-mij',      label: 'Over mij'     },
   { href: '/contact',       label: 'Contact'      },
 ];
 
