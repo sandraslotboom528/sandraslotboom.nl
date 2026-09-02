@@ -48,6 +48,23 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               </ul>
             );
           }
+          if ('cta' in blok) {
+            return (
+              <div key={i} className="pt-4">
+                {blok.external ? (
+                  <a href={blok.href} target="_blank" rel="noopener noreferrer"
+                    className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity">
+                    {blok.cta}
+                  </a>
+                ) : (
+                  <Link href={blok.href}
+                    className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity">
+                    {blok.cta}
+                  </Link>
+                )}
+              </div>
+            );
+          }
           if (blok.linkTekst && blok.linkHref) {
             const [voor, na] = blok.tekst.split(blok.linkTekst);
             return (

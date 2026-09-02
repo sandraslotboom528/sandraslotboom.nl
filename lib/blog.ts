@@ -4,16 +4,19 @@
 //  de volgende tekst: [...]" en hij zet 'm voor je in dit bestand.
 //
 //  Elk blok in `inhoud` is een subkop ({ kop: '...' }), een alinea
-//  ({ tekst: '...' }) of een opsomming ({ lijst: ['...', '...'] }).
+//  ({ tekst: '...' }), een opsomming ({ lijst: ['...', '...'] }) of
+//  een call-to-action knop ({ cta: 'knoptekst', href: '...' }).
 //  Een alinea kan een link naar een andere blog/pagina bevatten door
 //  linkTekst (het stukje tekst dat moet linken) en linkHref (het pad)
 //  toe te voegen, bijv. { tekst: '...', linkTekst: 'mijn vorige blog', linkHref: '/blog/xxx' }.
+//  Zet external: true bij een cta of link die naar een andere website gaat.
 // ════════════════════════════════════════════════════════════
 
 export type BlogBlock =
   | { kop: string }
   | { tekst: string; linkTekst?: string; linkHref?: string }
-  | { lijst: string[] };
+  | { lijst: string[] }
+  | { cta: string; href: string; external?: boolean };
 
 export interface BlogPost {
   slug: string;
@@ -692,6 +695,7 @@ export const blogPosts: BlogPost[] = [
       { tekst: 'De kunst is om er niet volledig door meegenomen te worden. Je kunt twijfelen én toch kiezen. Je kunt bang zijn én toch bewegen. Je kunt niet weten wat er gaat gebeuren én toch vertrouwen.' },
       { tekst: 'En wanneer je steeds opnieuw leert thuiskomen bij jezelf, ontstaat er iets wat veel krachtiger is dan zekerheid over de toekomst.' },
       { tekst: 'Het vertrouwen dat je jezelf kunt dragen, wat er ook komt. Misschien is dát wel de echte kracht van Aarde. Niet dat de grond altijd stevig is. Maar dat jij steeds opnieuw kunt leren landen.' },
+      { cta: 'Ontdek de meditatie over de 5 elementen →', href: 'https://salacia.kennis.shop/pay/vuur-naar-aarde', external: true },
     ],
   },
 ];
