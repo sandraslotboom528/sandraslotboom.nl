@@ -70,9 +70,16 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             return (
               <p key={i}>
                 {voor}
-                <Link href={blok.linkHref} className="font-bold text-accent hover:underline">
-                  {blok.linkTekst}
-                </Link>
+                {blok.linkExternal ? (
+                  <a href={blok.linkHref} target="_blank" rel="noopener noreferrer"
+                    className="font-bold text-accent hover:underline">
+                    {blok.linkTekst}
+                  </a>
+                ) : (
+                  <Link href={blok.linkHref} className="font-bold text-accent hover:underline">
+                    {blok.linkTekst}
+                  </Link>
+                )}
                 {na}
               </p>
             );

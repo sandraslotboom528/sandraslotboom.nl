@@ -14,7 +14,7 @@
 
 export type BlogBlock =
   | { kop: string }
-  | { tekst: string; linkTekst?: string; linkHref?: string }
+  | { tekst: string; linkTekst?: string; linkHref?: string; linkExternal?: boolean }
   | { lijst: string[] }
   | { cta: string; href: string; external?: boolean };
 
@@ -959,6 +959,12 @@ export const blogPosts: BlogPost[] = [
       { kop: 'Waar ligt Du Mai 20 precies?' },
       { tekst: 'Du Mai 20 ligt op de Du Mai, ook wel het "Gouverneursvat" genoemd. Dit is een van de acht Extra meridianen en loopt over het midden van de rugzijde van het lichaam, van het staartbeen, over het hoofd heen tot aan de bovenlip. De Du Mai wordt beschouwd als de zee van alle Yang-meridianen, omdat hij verbinding maakt met alle Yang-meridianen in het lichaam.' },
       { tekst: 'Om Du Mai 20 te vinden, trek je een denkbeeldige lijn tussen de bovenkant van beide oren, over het midden van het hoofd. Het punt bevindt zich precies op het snijpunt van deze lijn met de middellijn van het lichaam, meestal ongeveer op de plek waar bij baby\'s de fontanel zit. Bij veel mensen is hier een lichte inzinking of een subtiel gevoelig plekje te voelen wanneer je er zachte druk op uitoefent.' },
+      {
+        tekst: 'Bekijk deze korte video op YouTube om precies te zien waar je dit punt kunt vinden.',
+        linkTekst: 'korte video op YouTube',
+        linkHref: 'https://www.youtube.com/shorts/cA2p_u-W91Y',
+        linkExternal: true,
+      },
       { tekst: 'Wil je dit punt niet alleen kennen, maar ook ervaren?' },
       { tekst: 'Du Mai 20 is één van de punten die je ook tegenkomt in mijn online training ‘Tapping met de 5 elementen’.' },
       { tekst: 'In deze training ontdek je hoe je met eenvoudige tapping-oefeningen kunt werken met de meridianen en de wijsheid van de 5 Elementen. Niet alleen vanuit kennis, maar vooral door het zelf te ervaren.' },
