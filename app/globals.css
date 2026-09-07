@@ -114,6 +114,11 @@ body {
   background-position: center 55%;
 }
 
+/* Hero op de relaxweekend-pagina: toont meer van de onderste foto (yogazaal). */
+.hero-section-relax {
+  background-position: center 65%;
+}
+
 /* Sectie die direct na de hero komt en eroverheen schuift.
    Moet een dekkende achtergrond hebben, anders blijft de hero zichtbaar. */
 .hero-cover {

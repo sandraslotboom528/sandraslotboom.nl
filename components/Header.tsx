@@ -17,6 +17,7 @@ const navLinks = [
       { href: 'https://salacia.kennis.shop/',  label: 'Online acupressuur', external: true },
     ],
   },
+  { href: '/relaxweekend',  label: 'Relaxweekend' },
   { href: '/stiltemiddag',  label: 'Stiltemiddag' },
   { href: '/gratis',        label: 'Gratis'       },
   { href: '/blog',          label: 'Blog'         },
