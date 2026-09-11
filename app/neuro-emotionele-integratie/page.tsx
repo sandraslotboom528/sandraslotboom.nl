@@ -2,7 +2,10 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ScrollReveal from '@/components/ScrollReveal';
 
-export const metadata: Metadata = { title: 'Neuro Emotionele Integratie' };
+export const metadata: Metadata = {
+  title: 'Neuro Emotionele Integratie',
+  description: 'Bevrijd wat je niet kunt zien, maar wél voelt — Neuro Emotionele Integratie met de wijsheid van de Chinese geneeskunde.',
+};
 
 export default function NeiPage() {
   return (

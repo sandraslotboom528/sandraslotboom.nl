@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 import ScrollReveal from '@/components/ScrollReveal';
 
-export const metadata: Metadata = { title: 'Relaxweekend' };
+export const metadata: Metadata = {
+  title: 'Relaxweekend',
+  description: 'Een weekend om te landen, los te laten en weer thuis te komen bij jezelf — met de 5 elementen als rode draad.',
+};
 
 export default function RelaxweekendPage() {
   return (

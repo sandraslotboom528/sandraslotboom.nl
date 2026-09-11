@@ -2,7 +2,10 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ScrollReveal from '@/components/ScrollReveal';
 
-export const metadata: Metadata = { title: 'Acupunctuur' };
+export const metadata: Metadata = {
+  title: 'Acupunctuur',
+  description: 'Acupunctuur gaat naar de oorzaak van je klachten, niet alleen het symptoom — ontdek hoe het werkt en wat je kunt verwachten.',
+};
 
 export default function AcupunctuurPage() {
   return (

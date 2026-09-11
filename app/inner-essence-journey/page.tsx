@@ -2,7 +2,10 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ScrollReveal from '@/components/ScrollReveal';
 
-export const metadata: Metadata = { title: 'Inner Essence Journey' };
+export const metadata: Metadata = {
+  title: 'Inner Essence Journey',
+  description: 'Een lichaamsgerichte behandeling voor vrouwen die altijd aan staan en klaar zijn om eindelijk te landen.',
+};
 
 export default function InnerEssenceJourneyPage() {
   return (

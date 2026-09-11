@@ -2,7 +2,10 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { blogPosts } from '@/lib/blog';
 
-export const metadata: Metadata = { title: 'Blog' };
+export const metadata: Metadata = {
+  title: 'Blog',
+  description: 'Verhalen en inzichten over de Chinese geneeskunde, de 5 elementen en wat ze je kunnen leren over jezelf.',
+};
 
 export default function BlogPage() {
   return (

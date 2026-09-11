@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
 
-export const metadata: Metadata = { title: 'Contact' };
+export const metadata: Metadata = {
+  title: 'Contact',
+  description: 'Neem contact op met Salacia voor een afspraak of vraag over acupunctuur en holistische behandelingen in Delft.',
+};
 
 export default function ContactPage() {
   return (

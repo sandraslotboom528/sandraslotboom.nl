@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 import ScrollReveal from '@/components/ScrollReveal';
 
-export const metadata: Metadata = { title: 'Over mij' };
+export const metadata: Metadata = {
+  title: 'Over mij',
+  description: 'Maak kennis met Sandra Slotboom van Salacia: haar achtergrond, visie en werkwijze binnen de Chinese geneeskunde.',
+};
 
 export default function OverMijPage() {
   return (

@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 import ScrollReveal from '@/components/ScrollReveal';
 
-export const metadata: Metadata = { title: 'Gratis' };
+export const metadata: Metadata = {
+  title: 'Gratis',
+  description: 'Ontdek gratis wat jouw emoties je proberen te vertellen volgens de 5 elementen — de Emotie EHBO 5-daagse.',
+};
 
 const AANMELD_URL = 'https://laposta.nl/f/ssfrrowk5l22';
 

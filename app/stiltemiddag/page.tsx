@@ -2,7 +2,10 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ScrollReveal from '@/components/ScrollReveal';
 
-export const metadata: Metadata = { title: 'Stiltemiddag' };
+export const metadata: Metadata = {
+  title: 'Stiltemiddag',
+  description: 'Een middag van stilte, vertraging en de kracht van acupressuur — meditatie, yin yoga en de Inner Essence Journey, 15 november.',
+};
 
 const AANMELD_URL = 'https://laposta.nl/f/ss8wbmxwsq74';
 

@@ -2,7 +2,10 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ScrollReveal from '@/components/ScrollReveal';
 
-export const metadata: Metadata = { title: 'Aanbod' };
+export const metadata: Metadata = {
+  title: 'Aanbod',
+  description: 'Bekijk het aanbod van Salacia: acupunctuur, Neuro Emotionele Integratie, de Inner Essence Journey en meer.',
+};
 
 const diensten = [
   {
