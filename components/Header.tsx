@@ -18,7 +18,6 @@ const navLinks = [
     ],
   },
   { href: '/relaxweekend',  label: 'Relaxweekend' },
-  { href: '/stiltemiddag',  label: 'Stiltemiddag' },
   { href: '/gratis',        label: 'Gratis'       },
   { href: '/blog',          label: 'Blog'         },
   { href: '/over-mij',      label: 'Over mij'     },
