@@ -18,6 +18,7 @@ const navLinks = [
     ],
   },
   { href: '/relaxweekend',  label: 'Relaxweekend' },
+  { href: '/herfstjourney', label: 'Herfstjourney' },
   { href: '/gratis',        label: 'Gratis'       },
   { href: '/blog',          label: 'Blog'         },
   { href: '/over-mij',      label: 'Over mij'     },
