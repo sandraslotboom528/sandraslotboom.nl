@@ -1737,8 +1737,7 @@ export const blogPosts: BlogPost[] = [
       { tekst: 'Ook emoties bewegen binnen de 5 elementen niet allemaal op dezelfde manier.' },
       { tekst: 'Soms hebben we Aarde nodig: tijd om te verwerken, te voeden en weer bij ons midden te komen.' },
       { tekst: 'En soms hebben we juist de beweging van Metaal nodig: onderscheiden wat nog waarde heeft en ruimte maken voor wat we niet langer hoeven vast te houden.' },
-      { tekst: 'In mijn gratis online herfstjourney op maandag 28 september neem ik je mee in de kwaliteiten van het Metaalelement.', linkTekst: 'gratis online herfstjourney', linkHref: '/herfstjourney' },
-      { cta: 'Meld je gratis aan →', href: '/herfstjourney' },
+      { tekst: 'In mijn gratis online herfstjourney nam ik je mee in de kwaliteiten van het Metaalelement.' },
     ],
   },
 ];
