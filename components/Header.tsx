@@ -18,6 +18,7 @@ const navLinks = [
       { href: 'https://salacia.kennis.shop/',  label: 'Online acupressuur', external: true },
     ],
   },
+  { href: '/training-5-elementen-acupressuur', label: 'Acupressuurtraining' },
   { href: '/one-day-retreat', label: 'One Day Retreat' },
   { href: '/gratis',        label: 'Gratis'       },
   { href: '/blog',          label: 'Blog'         },
@@ -50,7 +51,7 @@ export default function Header() {
         </Link>
 
         {/* Navigatie — desktop */}
-        <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
+        <nav className="hidden lg:flex items-center gap-6 text-sm font-medium">
           {navLinks.map(link => (
             link.children ? (
               <div key={link.href} className="relative" ref={dropdownRef}>
@@ -106,7 +107,7 @@ export default function Header() {
         </nav>
 
         {/* Hamburger — mobiel */}
-        <button className="md:hidden flex flex-col gap-1.5 p-2 -mr-2"
+        <button className="lg:hidden flex flex-col gap-1.5 p-2 -mr-2"
           onClick={() => setOpen(!open)}
           aria-label={open ? 'Menu sluiten' : 'Menu openen'}>
           <span className={`block w-6 h-0.5 bg-primair transition-transform duration-200 ${open ? 'rotate-45 translate-y-2' : ''}`} />
@@ -117,7 +118,7 @@ export default function Header() {
 
       {/* Navigatie — mobiel dropdown */}
       {open && (
-        <nav className="md:hidden border-t border-primair/10 bg-wit px-6 py-5 flex flex-col gap-5 text-sm font-medium">
+        <nav className="lg:hidden border-t border-primair/10 bg-wit px-6 py-5 flex flex-col gap-5 text-sm font-medium">
           {navLinks.map(link => (
             <div key={link.href}>
               <Link href={link.href}

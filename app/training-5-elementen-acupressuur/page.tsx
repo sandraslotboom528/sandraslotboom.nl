@@ -262,28 +262,42 @@ export default function TrainingPage() {
         </section>
 
         {/* Mijn manier van lesgeven */}
-        <section className="max-w-3xl mx-auto px-6 py-16">
-          <h2 className="text-2xl font-bold text-primair mb-6 reveal">Mijn manier van lesgeven</h2>
-          <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-            In mijn werk als acupuncturist vind ik het belangrijk dat je begrijpt wat je zelf kunt doen voor je
-            gezondheid.
-          </p>
-          <p className="text-tekst/80 leading-relaxed mb-6 reveal">
-            Daarom maak ik in deze training de verbanden zichtbaar en leg ik de theorie in begrijpelijke taal uit.
-            Je leert hoe je de kennis gebruikt om bewuste keuzes te maken voor jouw dagelijkse routine.
-          </p>
-          <p className="font-bold text-primair reveal">Praktisch, helder en stap voor stap.</p>
+        <section className="max-w-5xl mx-auto px-6 py-16">
+          <div className="two-col">
+            <div className="col-text">
+              <h2 className="text-2xl font-bold text-primair mb-6 reveal">Mijn manier van lesgeven</h2>
+              <p className="text-tekst/80 leading-relaxed mb-4 reveal">
+                In mijn werk als acupuncturist vind ik het belangrijk dat je begrijpt wat je zelf kunt doen voor je
+                gezondheid.
+              </p>
+              <p className="text-tekst/80 leading-relaxed mb-6 reveal">
+                Daarom maak ik in deze training de verbanden zichtbaar en leg ik de theorie in begrijpelijke taal
+                uit. Je leert hoe je de kennis gebruikt om bewuste keuzes te maken voor jouw dagelijkse routine.
+              </p>
+              <p className="font-bold text-primair reveal">Praktisch, helder en stap voor stap.</p>
+            </div>
+            <div className="col-image">
+              <img src="/fotos/website-portret.jpg" alt="Portret van Sandra Slotboom" />
+            </div>
+          </div>
         </section>
 
         {/* Veelgestelde vragen */}
         <section className="bg-wit">
           <div className="max-w-3xl mx-auto px-6 py-16">
             <h2 className="text-2xl font-bold text-primair mb-8 reveal">Veelgestelde vragen</h2>
-            <ul id="faq-lijst" className="space-y-6">
+            <ul id="faq-lijst" className="border-t border-primair/20">
               {vragen.map((v) => (
-                <li key={v.vraag}>
-                  <p className="font-bold text-primair mb-1">{v.vraag}</p>
-                  <p className="text-tekst/80 leading-relaxed">{v.antwoord}</p>
+                <li key={v.vraag} className="border-b border-primair/20">
+                  <details className="group">
+                    <summary className="flex items-center justify-between gap-4 py-4 cursor-pointer list-none [&::-webkit-details-marker]:hidden font-bold text-primair">
+                      {v.vraag}
+                      <span aria-hidden="true" className="text-2xl font-normal leading-none transition-transform group-open:rotate-45">
+                        +
+                      </span>
+                    </summary>
+                    <p className="text-tekst/80 leading-relaxed pb-5">{v.antwoord}</p>
+                  </details>
                 </li>
               ))}
             </ul>
