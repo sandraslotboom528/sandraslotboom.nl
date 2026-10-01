@@ -109,6 +109,31 @@ body {
   background-position: center 5%;
 }
 
+/* Hero op de trainingspagina: de titel staat al in de foto. Op brede
+   schermen tonen we die en verbergen we de h1 visueel; op mobiel valt de
+   titel in de foto buiten beeld en tonen we de h1 zoals op andere pagina's. */
+.hero-section-training {
+  background-position: center 60%;
+}
+@media (max-width: 768px) {
+  .hero-section-training {
+    background-position: 85% center;
+  }
+}
+@media (min-width: 769px) {
+  .hero-section-training .hero-overlay {
+    background: none;
+  }
+  .hero-section-training h1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
 /* Sectie die direct na de hero komt en eroverheen schuift.
    Moet een dekkende achtergrond hebben, anders blijft de hero zichtbaar. */
 .hero-cover {

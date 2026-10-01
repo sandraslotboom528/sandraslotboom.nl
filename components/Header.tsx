@@ -14,6 +14,7 @@ const navLinks = [
       { href: '/acupunctuur',                  label: 'Acupunctuurbehandeling'        },
       { href: '/neuro-emotionele-integratie',  label: 'Neuro Emotionele Integratie'   },
       { href: '/inner-essence-journey',        label: 'Inner essence journey'         },
+      { href: '/training-5-elementen-acupressuur', label: 'Training 5 elementen acupressuur' },
       { href: 'https://salacia.kennis.shop/',  label: 'Online acupressuur', external: true },
     ],
   },
