@@ -104,7 +104,7 @@ export default function TrainingPage() {
             Ja, ik wil weten wat ik zelf kan doen →
           </a>
           <p className="text-tekst/60 text-sm mt-4 reveal">
-            Online training · in je eigen tempo · nu instappen voor €95,-
+            Online training · in je eigen tempo · nu instappen voor €140,-
           </p>
         </section>
 
@@ -320,29 +320,32 @@ export default function TrainingPage() {
             Van zoeken naar losse gezondheidstips naar weten wat jij dagelijks voor je lichaam kunt doen.
           </p>
           <div className="bg-wit rounded-2xl p-8 mb-8 text-left reveal">
-            <h3 className="text-xl font-bold text-primair mb-4">Stap nu in voor €95,-</h3>
+            <h3 className="text-xl font-bold text-primair mb-4">Stap nu in voor €140,-</h3>
             <p className="text-tekst/80 leading-relaxed mb-4">
-              De eerste 2 modules staan voor je klaar, dus je kunt meteen beginnen en ze in je eigen tempo
-              doorlopen.
+              De eerste 3 modules staan voor je klaar, inclusief de module met de acupressuurpunten. Je kunt
+              dus meteen beginnen en ze in je eigen tempo doorlopen.
             </p>
             <p className="text-tekst/80 leading-relaxed mb-4">
               De training groeit de komende tijd verder. Bij elke nieuwe module gaat de instapprijs een stapje
-              omhoog. Als je nu instapt voor €95,-, krijg je alle volgende modules erbij zonder extra te betalen.
-              Je betaalt dus één keer en groeit mee met de volledige training. De eerstvolgende module is de module
-              met de acupressuurpunten.
+              omhoog. Als je nu instapt voor €140,-, krijg je alle volgende modules erbij zonder extra te betalen.
+              Je betaalt dus één keer en groeit mee met de volledige training.
             </p>
             <p className="text-tekst/80 leading-relaxed mb-4">
               Ook zijn er 2 Q&amp;A’s inbegrepen waarin je jouw vragen kunt stellen over de theorie, de
-              acupressuurpunten en het samenstellen van je eigen routine. Deze plan ik in zodra de volgende module
-              met alle acupressuurpunten klaarstaat. Je ontvangt dan de data.
+              acupressuurpunten en het samenstellen van je eigen routine. Deze vinden plaats op:
             </p>
+            <ul className="space-y-1 mb-4 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
+              <li>2 november om 14.00 uur</li>
+              <li>18 november om 19.00 uur</li>
+            </ul>
             <p className="text-tekst/80 leading-relaxed">
-              Zo kun je nu al de basis leggen en straks verder bouwen aan een acupressuurroutine die bij jou past.
+              Zo kun je nu al aan de slag met de basis én de acupressuurpunten, en stap voor stap een
+              acupressuurroutine samenstellen die bij jou past.
             </p>
           </div>
           <a href={TRAINING_URL} target="_blank" rel="noopener noreferrer"
             className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity reveal">
-            Ja, ik stap in voor €95,- →
+            Ja, ik stap in voor €140,- →
           </a>
         </section>
       </div>
