@@ -2407,6 +2407,78 @@ export const blogPosts: BlogPost[] = [
       { cta: 'Bekijk de training 5 elementen acupressuur →', href: '/training-5-elementen-acupressuur' },
     ],
   },
+  {
+    slug: 'metaal-en-hout',
+    titel: 'De tuinman in jou: hoe Metaal het Hout richting geeft',
+    datum: '2026-10-15',
+    samenvatting: 'Metaal is de snoeischaar, Hout de groeiende boom. Over de controlerende relatie tussen Metaal en Hout, wat er gebeurt als de balans verschuift en hoe je met zachte aanraking het evenwicht ondersteunt.',
+    foto: '/fotos/blog-metaal-hout.jpg',
+    inhoud: [
+      { tekst: 'Wie een fruitboom heeft, weet dat hij af en toe gesnoeid moet worden. Dat voelt misschien tegenstrijdig: je haalt takken weg van iets wat je juist wilt laten groeien. Toch draagt een boom die goed gesnoeid is meer en betere vruchten. Zijn kracht gaat niet meer naar wildgroei, maar naar wat werkelijk tot bloei kan komen. Snoei je te weinig, dan woekert de boom alle kanten op. Snoei je te veel, dan beschadig je hem en remt zijn groei.' },
+      { tekst: 'In de 5 elementenleer is dit precies de relatie tussen het Metaalelement en het Houtelement. Metaal is de snoeischaar, Hout de groeiende boom. In deze blog neem ik je mee in wat deze controlerende relatie betekent, hoe je haar kunt herkennen in je eigen lichaam en gemoed, en hoe je met zachte aanraking het evenwicht kunt ondersteunen.' },
+
+      { kop: 'Metaal en Hout: wie zijn zij?' },
+      { tekst: 'Het Houtelement hoort bij de lente, de tijd van ontkiemen, uitbotten en groeien. Het is het element van visie, richting, plannen en daadkracht. Wanneer Hout in balans is, weet je waar je naartoe wilt en heb je de veerkracht om daar te komen, ook als het tegenzit.' },
+      { tekst: 'Het Metaalelement hoort bij de herfst, de tijd van oogsten en loslaten. Metaal staat voor structuur, helderheid, waardigheid en het vermogen om te onderscheiden wat waardevol is.' },
+
+      { kop: 'Hoe Metaal het Hout snoeit' },
+      { tekst: 'In het lichaam is de relatie tussen Lever en Longen mooi te zien in de beweging van de Qi. De Lever laat de Qi opstijgen en zich verspreiden, zoals een boom die naar het licht toe groeit. De Longen laten de Qi juist dalen, met elke uitademing.' },
+      { tekst: 'Wanneer het Metaal zijn controlerende werk goed doet, houdt de dalende beweging van de Longen de opstijgende kracht van de Lever in toom. De Qi blijft stromen, maar schiet niet door naar boven, naar het hoofd. Je kunt plannen maken én tot rust komen. Je kunt boos worden én weer loslaten.' },
+      { tekst: 'Ook op een dieper niveau ontmoeten deze twee elkaar. De Lever huisvest de Hun, het deel van onze ziel dat dromen, visie en richting draagt. De Longen huisvesten de Po, de lichamelijke ziel, die ons verankert in het hier en nu, in onze adem en in ons lichaam. De Hun wil reizen en uitbreiden. De Po houdt ons hier, in dit moment. Metaal brengt de dromen van Hout terug naar wat werkelijk kan en wat er nu nodig is.' },
+      { tekst: 'Op emotioneel vlak zie je hetzelfde. Hout wil groeien, doen, vooruit. Metaal stelt de vraag: wat is hiervan echt waardevol? Wat mag je loslaten, zodat je kracht kan gaan naar wat er werkelijk toe doet? Metaal geeft het Hout geen nee, maar richting.' },
+
+      { kop: 'Wanneer het evenwicht verstoord raakt' },
+      { tekst: 'Ook deze controle is gezond zolang zij in de juiste maat is. Er zijn twee kanten waarop het evenwicht kan verschuiven.' },
+
+      { kop: 'Te veel Metaal: het Hout wordt gesnoeid tot op de stam' },
+      { tekst: 'Wanneer het Metaal te sterk is, overheerst het het Hout. Dan wordt er niet meer gesnoeid, maar gekapt. De groei komt tot stilstand.' },
+      { tekst: 'Dit herken je bijvoorbeeld als:' },
+      { lijst: [
+        'Een innerlijke criticus die elk plan al afkeurt voordat je eraan begonnen bent.',
+        'Perfectionisme dat zo streng is dat je niet meer durft te beginnen.',
+        'Een gevoel van vastzitten, alsof je niet meer weet welke kant je op wilt.',
+        'Stijfheid in je lichaam, in je pezen en spieren, en een gevoel van spanning dat geen uitweg vindt.',
+        'Boosheid die je wegslikt, omdat het niet \'netjes\' is om haar te voelen. Op den duur kan dat omslaan in somberheid of moedeloosheid.',
+      ] },
+
+      { kop: 'Te weinig Metaal: het Hout woekert' },
+      { tekst: 'Wanneer het Metaal juist zwak is, kan het Hout niet meer goed in toom gehouden worden. Het Hout groeit dan alle kanten op, en kan zelfs terugdrukken op het Metaal. Dit heet de beledigende of tegengestelde cyclus: in plaats van dat de snoeischaar de boom vormt, overwoekert de boom de snoeischaar.' },
+      { tekst: 'Dat kan zich laten zien als:' },
+      { lijst: [
+        'Prikkelbaarheid en snel geïrriteerd zijn, met boosheid die opvlamt voordat je het weet.',
+        'Te veel plannen tegelijk, zonder dat er iets echt afkomt.',
+        'Moeite met grenzen stellen aan jezelf: altijd nog één ding erbij doen.',
+        'Spanning die naar boven schiet: hoofdpijn, een rood hoofd, een drukkend gevoel op de borst.',
+        'Een kriebelhoest of een beklemd gevoel bij het ademen, vooral in tijden van stress of frustratie.',
+      ] },
+
+      { kop: 'De les van de tuinman' },
+      { tekst: 'Wat deze relatie ons leert, is dat groei grenzen nodig heeft om vrucht te kunnen dragen.' },
+      { lijst: ['Niet elke tak hoeft te blijven.', 'Niet elk plan hoeft uitgevoerd te worden.', 'Niet elke ambitie is werkelijk de jouwe.'] },
+      { tekst: 'Een goede tuinman snoeit niet uit angst of strengheid, maar uit liefde voor de boom. Hij kijkt wat er wil groeien en geeft dat de ruimte, door weg te halen wat de kracht wegneemt. Zo mag jouw Metaal ook werken: niet als een strenge stem die alles afkeurt, maar als een helder oog dat ziet wat waardevol is.' },
+      { tekst: 'De herfst is daarvoor een mooie tijd. Terwijl de bomen hun bladeren loslaten, kun je jezelf afvragen: wat mag ik dit jaar laten vallen, zodat er in het voorjaar ruimte is voor nieuwe groei?' },
+
+      { kop: 'Zachte aanraking voor Metaal en Hout' },
+      { tekst: 'Dit acupressuurpunt sluit mooi aan bij deze relatie, omdat het precies het ontmoetingspunt van Metaal en Hout raakt.' },
+      { kop: 'Long 11' },
+      { tekst: 'Dit is het Houtpunt op de Longmeridiaan. Je vindt het aan de buitenkant van je duim, net naast de hoek van de nagel. Dit punt brengt de beweging en frisheid van Hout naar het Metaal. Het kan ondersteunen wanneer je adem gespannen en beklemd voelt, en wanneer er iets vastzit wat in beweging wil komen.' },
+
+      { kop: 'Vragen om mee te nemen' },
+      { lijst: [
+        'Welke plannen of ambities in mijn leven zijn werkelijk van mij, en welke mag ik loslaten?',
+        'Waar ben ik zo streng voor mezelf dat ik niet meer durf te groeien?',
+        'Waar groei ik alle kanten op en verlies ik mijn richting?',
+        'Wat doe ik met mijn boosheid: laat ik haar voelen, of slik ik haar in?',
+        'Wat mag ik deze herfst laten vallen, zodat er ruimte komt voor iets nieuws?',
+      ] },
+      { tekst: 'Het Metaal en het Hout in jou zijn geen tegenstanders. De snoeischaar en de boom werken samen aan hetzelfde: een leven dat groeit in een richting die klopt, en dat vrucht draagt.' },
+
+      { kop: 'Verder verdiepen in de 5 elementen' },
+      { tekst: 'Wil je de relaties tussen de elementen niet alleen begrijpen, maar ook ervaren in je eigen lichaam? In mijn online acupressuurtraining 5 elementen acupressuur werken we met de 5 elementenpunten op de meridianen, zoals Long 11 in dit blog. Je leert van alle 12 Hoofdmeridianen de 5 elementenpunten kennen. Je ontdekt hoe je met zachte aanraking het evenwicht tussen de elementen kunt ondersteunen, bij jezelf en als je dat wilt ook bij anderen.', linkTekst: 'online acupressuurtraining 5 elementen acupressuur', linkHref: '/training-5-elementen-acupressuur' },
+      { cta: 'Bekijk de training 5 elementen acupressuur →', href: '/training-5-elementen-acupressuur' },
+      { tekst: 'Acupressuur is een ondersteunende zelfzorgvorm en vervangt geen medische zorg. Heb je aanhoudende klachten, raadpleeg dan je huisarts of een behandelaar.' },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
