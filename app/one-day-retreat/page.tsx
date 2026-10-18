@@ -9,32 +9,32 @@ export const metadata: Metadata = {
 
 const AANMELD_URL = 'https://laposta.nl/f/ssybx13cao99';
 
-const elementen = [
+const programma = [
   {
-    element: 'Water',
-    titel: 'Meditatie en soundhealing',
+    titel: 'Water · Meditatie en soundhealing',
     tekst: 'We beginnen met vertragen. Je mag landen, luisteren en even loskomen van alles wat je aandacht vraagt.',
   },
   {
-    element: 'Hout',
-    titel: 'Een vision board voor 2027',
+    titel: 'Hout · Mantra zingen',
     tekst:
-      'Vanuit die rust kijken we vooruit. Wat wil jij laten groeien in het nieuwe jaar? Je geeft jouw verlangens en ideeën een plek op een vision board.',
+      'Vanuit die rust mag er weer beweging ontstaan. Hout staat voor groei en expressie. Met mantra zingen geef je ruimte aan wat in jou leeft. Je hoeft niet mooi te zingen, je mag je stem gewoon laten klinken.',
   },
   {
-    element: 'Vuur',
+    titel: 'Vuur · Duo meridiaanstrekkingen',
+    tekst:
+      'Vuur staat voor warmte en verbinding. In tweetallen doen we meridiaanstrekkingen, waarbij je elkaar ondersteunt. Zo ervaar je hoe het is om te geven én te ontvangen.',
+  },
+  {
     titel: 'Lunch',
     tekst: 'Tijd om te genieten van een vegetarische lunch, op te laden en samen aan tafel te zitten.',
   },
   {
-    element: 'Aarde',
-    titel: 'Yin yoga',
+    titel: 'Aarde · Yin yoga',
     tekst:
       'Met zachte, langere houdingen geef je je lichaam de ruimte om te ontspannen en weer bij jezelf te komen.',
   },
   {
-    element: 'Metaal',
-    titel: 'Inner Essence Journey',
+    titel: 'Metaal · Inner Essence Journey',
     tekst:
       'We sluiten af met een innerlijke reis. Een moment om te voelen wat je wilt loslaten en wat je juist wilt meenemen.',
   },
@@ -93,12 +93,10 @@ export default function OneDayRetreatPage() {
               <div className="col-text">
                 <h2 className="text-2xl font-bold text-primair mb-8 reveal">Een dag door de 5 elementen</h2>
                 <ul id="elementen-lijst" className="space-y-6">
-                  {elementen.map((e) => (
-                    <li key={e.element} className="border-l-2 border-primair/20 pl-5">
-                      <p className="font-bold text-primair mb-1">
-                        {e.element} · {e.titel}
-                      </p>
-                      <p className="text-tekst/80 leading-relaxed">{e.tekst}</p>
+                  {programma.map((p) => (
+                    <li key={p.titel} className="border-l-2 border-primair/20 pl-5">
+                      <p className="font-bold text-primair mb-1">{p.titel}</p>
+                      <p className="text-tekst/80 leading-relaxed">{p.tekst}</p>
                     </li>
                   ))}
                 </ul>
@@ -120,8 +118,8 @@ export default function OneDayRetreatPage() {
           <p className="font-bold text-primair mb-6 reveal">Water → Hout → Vuur → Aarde → Metaal</p>
           <ul id="cyclus-lijst" className="space-y-2 mb-6 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
             <li>Je vertraagt.</li>
-            <li>Je kijkt vooruit.</li>
-            <li>Je geniet.</li>
+            <li>Je laat je stem klinken.</li>
+            <li>Je maakt verbinding.</li>
             <li>Je landt in je lichaam.</li>
             <li>En je voelt wat je wilt loslaten en wat je meeneemt.</li>
           </ul>
@@ -131,22 +129,14 @@ export default function OneDayRetreatPage() {
           </p>
         </section>
 
-        {/* Wat neem je mee naar huis */}
+        {/* Je hoeft even niets */}
         <section className="bg-wit">
           <div className="max-w-3xl mx-auto px-6 py-16">
-            <h2 className="text-2xl font-bold text-primair mb-6 reveal">Wat neem je mee naar huis?</h2>
-            <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-              Deze dag stopt niet wanneer je naar huis gaat. Je neemt je eigen vision board voor 2027 mee.
-            </p>
-            <p className="text-tekst/80 leading-relaxed mb-8 reveal">
-              Hang het op een plek waar je het dagelijks ziet. Zo herinnert het je het hele jaar aan wat je op
-              deze dag hebt gevoeld, en aan wat jij wilt laten groeien.
-            </p>
             <h2 className="text-2xl font-bold text-primair mb-6 reveal">Je hoeft even niets</h2>
             <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-              Dit is geen dag waarop je iets hoeft te presteren. Je hoeft niet creatief te zijn om een vision board
-              te maken. Je hoeft niet lenig te zijn voor yin yoga. En je hoeft niet te weten wat je wilt voordat
-              je komt.
+              Dit is geen dag waarop je iets hoeft te presteren. Je hoeft niet mooi te kunnen zingen. Je hoeft
+              niet lenig te zijn voor yin yoga of de meridiaanstrekkingen. En je hoeft niet te weten wat je wilt
+              voordat je komt.
             </p>
             <p className="text-tekst/80 leading-relaxed mb-1 reveal">Je mag vertragen.</p>
             <p className="text-tekst/80 leading-relaxed mb-1 reveal">Je mag voelen.</p>
@@ -166,7 +156,7 @@ export default function OneDayRetreatPage() {
             <li>…of wanneer je simpelweg voelt: deze dag is voor mij.</li>
           </ul>
           <p className="text-tekst/80 leading-relaxed mb-2 reveal">
-            Je hoeft geen ervaring te hebben met meditatie, yin yoga of de vijf elementen.
+            Je hoeft geen ervaring te hebben met meditatie, mantra zingen, yin yoga of de vijf elementen.
           </p>
           <p className="font-bold text-primair reveal">Je mag komen zoals je bent.</p>
         </section>
@@ -188,7 +178,8 @@ export default function OneDayRetreatPage() {
                 <p className="font-bold text-primair mb-2 reveal">Inclusief:</p>
                 <ul className="list-disc pl-5 space-y-1 mb-6 text-tekst/80 leading-relaxed reveal">
                   <li>meditatie en soundhealing</li>
-                  <li>het maken van je vision board voor 2027</li>
+                  <li>mantra zingen</li>
+                  <li>duo meridiaanstrekkingen</li>
                   <li>een vegetarische lunch</li>
                   <li>yin yoga</li>
                   <li>Inner Essence Journey</li>
@@ -196,7 +187,7 @@ export default function OneDayRetreatPage() {
                 </ul>
                 <p className="font-bold text-primair mb-2 reveal">Wat neem je mee?</p>
                 <p className="text-tekst/80 leading-relaxed mb-6 reveal">
-                  Comfortabele kleding en warme sokken. Voor je vision board mag je een schaar, lijm en tijdschriften meenemen.
+                  Comfortabele kleding en warme sokken.
                 </p>
                 <p className="text-tekst/80 leading-relaxed reveal">
                   Na het klikken op de aanmeldknop kom je in een scherm waar je je naam en mailadres invult. Daarna
@@ -217,8 +208,8 @@ export default function OneDayRetreatPage() {
             Gun jezelf deze dag.
           </h2>
           <p className="text-tekst/80 leading-relaxed mb-1 reveal">Een dag om te vertragen met Water.</p>
-          <p className="text-tekst/80 leading-relaxed mb-1 reveal">Om vooruit te kijken met Hout.</p>
-          <p className="text-tekst/80 leading-relaxed mb-1 reveal">Om te genieten met Vuur.</p>
+          <p className="text-tekst/80 leading-relaxed mb-1 reveal">Om je stem te laten klinken met Hout.</p>
+          <p className="text-tekst/80 leading-relaxed mb-1 reveal">Om verbinding te voelen met Vuur.</p>
           <p className="text-tekst/80 leading-relaxed mb-1 reveal">Om te landen met Aarde.</p>
           <p className="text-tekst/80 leading-relaxed mb-6 reveal">En om los te laten met Metaal.</p>
           <p className="text-tekst/80 leading-relaxed mb-1 reveal">
