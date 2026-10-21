@@ -4,7 +4,7 @@ import ScrollReveal from '@/components/ScrollReveal';
 
 export const metadata: Metadata = {
   title: 'Neuro Emotionele Integratie',
-  description: 'Bevrijd wat je niet kunt zien, maar wél voelt — Neuro Emotionele Integratie met de wijsheid van de Chinese geneeskunde.',
+  description: 'Pijn die steeds terugkomt? Met Neuro Emotionele Integratie zoek je naar de onverwerkte emoties die daarbij een rol kunnen spelen — met de wijsheid van de Chinese geneeskunde.',
 };
 
 export default function NeiPage() {
@@ -34,19 +34,24 @@ export default function NeiPage() {
 
           <h2 className="text-2xl font-bold text-primair mb-6 reveal">Herken je dat?</h2>
           <ul id="herken-lijst" className="space-y-2 mb-6 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
-            <li>Je voelt dat er iets in de weg zit.</li>
-            <li>Een terugkerend patroon.</li>
+            <li>Je pijn komt steeds terug, ook na behandeling, rust of oefeningen.</li>
+            <li>Spanning in je lijf die niet weggaat, vooral in drukke of emotionele periodes.</li>
             <li>Een emotie die steeds opduikt.</li>
             <li>Een onverklaarbare blokkade in je lijf.</li>
           </ul>
           <p className="text-tekst/80 leading-relaxed mb-6 reveal">
-            Je hebt er al over gepraat, misschien zelfs aan gewerkt… en tóch blijft het zich herhalen.
+            Je hebt je klacht al laten behandelen, misschien zelfs gewerkt aan wat er in je leven speelt… en tóch
+            blijft de pijn terugkomen.
+          </p>
+          <p className="text-tekst/80 leading-relaxed mb-6 reveal">
+            Onverwerkte emoties kunnen ervoor zorgen dat spanning in je lichaam blijft zitten en dat pijn steeds
+            terugkomt. Met NEI (Neuro Emotionele Integratie) gaan we op zoek naar die onverwerkte emoties en helpt
+            het je om datgene wat onbewust vastzit, liefdevol los te laten.
           </p>
           <p className="text-tekst/80 leading-relaxed reveal">
-            NEI (Neuro Emotionele Integratie) helpt je om datgene wat onbewust vastzit, liefdevol los te laten. En
-            wat deze methode extra krachtig maakt? We combineren het met de eeuwenoude wijsheid van de 5 elementen,
-            waarin lichaam, geest en emotie één geheel vormen. Tijdens een NEI-sessie maak ik gebruik van een
-            biotensor, een energetisch meetinstrument.
+            En wat deze methode extra krachtig maakt? We combineren het met de eeuwenoude wijsheid van de 5
+            elementen, waarin lichaam, geest en emotie één geheel vormen. Tijdens een NEI-sessie maak ik gebruik
+            van een biotensor, een energetisch meetinstrument.
           </p>
         </section>
 
@@ -67,7 +72,11 @@ export default function NeiPage() {
                   NEI is een methode die helpt om onverwerkte emoties, overtuigingen of trauma&apos;s op te sporen
                   én los te laten.
                 </p>
-                <p className="font-bold text-primair mb-6 reveal">Zonder lange gesprekken of herbeleving.</p>
+                <p className="font-bold text-primair mb-4 reveal">Zonder lange gesprekken of herbeleving.</p>
+                <p className="text-tekst/80 leading-relaxed mb-6 reveal">
+                  Komt je pijn steeds terug, dan gaan we met NEI op zoek naar de onverwerkte emoties die daar een rol
+                  in kunnen spelen.
+                </p>
                 <p className="text-tekst/80 leading-relaxed mb-8 reveal">
                   NEI maakt gebruik van een biotensor om contact te maken met het onderbewuste, daar waar oude
                   patronen worden opgeslagen. Dat kunnen emoties zijn, maar ook angsten, belemmerende overtuigingen
@@ -77,7 +86,7 @@ export default function NeiPage() {
                 <p className="text-tekst/80 leading-relaxed mb-4 reveal">We kijken naar:</p>
                 <ul id="nei-kijken-lijst" className="space-y-2 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
                   <li>Welke elementen (Hout, Vuur, Aarde, Metaal, Water) uit balans zijn</li>
-                  <li>Welke emoties daar energetisch bij horen</li>
+                  <li>Welke onverwerkte emoties daar energetisch bij horen en een rol kunnen spelen bij je pijn</li>
                   <li>En hoe we jouw energie weer kunnen laten stromen</li>
                 </ul>
               </div>
@@ -104,7 +113,9 @@ export default function NeiPage() {
           </ul>
           <p className="text-tekst/80 leading-relaxed reveal">
             Tijdens een NEI-sessie onderzoeken we welke emotie-element-combinatie bij jou op de voorgrond staat.
-            Door deze bewust te maken en los te koppelen, kan er diepe transformatie ontstaan, van binnenuit.
+            Door deze bewust te maken en los te koppelen, kan er diepe transformatie ontstaan, van binnenuit. Zo
+            kan ook de spanning in je lijf, en daarmee de pijn die steeds terugkomt, meer ruimte krijgen om te
+            verminderen.
           </p>
         </section>
 
@@ -114,6 +125,7 @@ export default function NeiPage() {
             <h2 className="text-2xl font-bold text-primair mb-6 reveal">Voor wie is NEI geschikt?</h2>
             <p className="text-tekst/80 leading-relaxed mb-4 reveal">NEI is er voor jou als je:</p>
             <ul id="doelgroep-lijst" className="space-y-2 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
+              <li>Pijnklachten hebt die steeds terugkomen</li>
               <li>Steeds tegen dezelfde blokkades aanloopt</li>
               <li>Voelt dat er &apos;iets&apos; zit, maar het niet kunt benoemen</li>
               <li>Lichamelijke klachten hebt zonder duidelijke oorzaak</li>

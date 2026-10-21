@@ -15,7 +15,7 @@ const diensten = [
   },
   {
     naam: 'Neuro Emotionele Integratie',
-    beschrijving: 'Voor wie vastloopt in patronen die zich blijven herhalen — bevrijd wat onbewust vastzit, met de wijsheid van de 5 elementen.',
+    beschrijving: 'Voor wie pijn houdt die steeds terugkomt — zoek de onverwerkte emoties die onbewust vastzitten en laat ze los, met de wijsheid van de 5 elementen.',
     link: '/neuro-emotionele-integratie',
   },
   {
