@@ -4,7 +4,7 @@ import ScrollReveal from '@/components/ScrollReveal';
 
 export const metadata: Metadata = {
   title: 'Acupunctuur',
-  description: 'Acupunctuur gaat naar de oorzaak van je klachten, niet alleen het symptoom — ontdek hoe het werkt en wat je kunt verwachten.',
+  description: 'Acupunctuur bij pijn aan spieren, pezen en gewrichten, zoals hielspoor, tenniselleboog en rug-, nek- en schouderklachten — ontdek hoe het werkt en wat je kunt verwachten.',
 };
 
 export default function AcupunctuurPage() {
@@ -14,7 +14,7 @@ export default function AcupunctuurPage() {
       <div className="hero-section" style={{ backgroundImage: "url('/fotos/herosectie-acupunctuur.jpg')" }}>
         <div className="hero-overlay">
           <h1 className="text-3xl md:text-4xl font-bold text-white max-w-2xl leading-tight">
-            Acupunctuur: waarom werkt het waar andere behandelingen vastlopen?
+            Acupunctuur bij pijn aan spieren, pezen en gewrichten
           </h1>
         </div>
       </div>
@@ -29,13 +29,14 @@ export default function AcupunctuurPage() {
       {/* Intro */}
       <section className="max-w-3xl mx-auto px-6 pb-16">
         <p className="text-lg font-bold text-primair/90 leading-relaxed mb-8 reveal">
-          Het antwoord ligt niet in symptoombestrijding, maar in het herstellen van de balans die je lichaam in
-          stand houdt.
+          Weer soepel en pijnvrij bewegen, om te sporten en in je dagelijkse bezigheden. Dat lukt niet door alleen
+          de pijn te dempen, maar door te herstellen waarom je lichaam vastloopt.
         </p>
         <p className="text-tekst/80 leading-relaxed mb-4 reveal">
           Je hebt misschien wel eens van acupunctuur gehoord. Naaldjes. Meridianen. Qi. Klinkt allemaal een beetje
-          mysterieus, misschien zelfs zweverig. Maar hier is wat je moet weten: acupunctuur werkt. Niet omdat het
-          mystiek is, maar omdat het iets doet wat de meeste westerse behandelingen niet doen.
+          mysterieus, misschien zelfs zweverig. Maar acupunctuur is een eeuwenoude behandeling die iets doet wat de
+          meeste westerse behandelingen niet doen: ze kijkt naar de doorstroming in je hele lichaam, niet alleen
+          naar de plek waar het pijn doet.
         </p>
         <p className="font-bold text-primair reveal">
           Het gaat naar de oorzaak van je klachten. Niet alleen naar het symptoom.
@@ -51,32 +52,34 @@ export default function AcupunctuurPage() {
                 Waarom symptoombestrijding vaak niet genoeg is
               </h2>
               <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-                Stel je voor: je voelt je al maanden vermoeid. Je huisarts vindt niks afwijkends in je
-                bloedwaarden. "Gewoon even doorbijten," zeggen ze. Je probeert meer te sporten, gezonder te eten,
-                eerder naar bed te gaan. Misschien wordt het iets minder erg. Maar de spanning blijft. De
-                vermoeidheid komt terug. Je lichaam voelt alsof het niet meewerkt.
+                Stel je voor: je hebt al maanden last van je hiel. Je rust, rekt, probeert zolen. Misschien wordt het
+                iets minder erg. Maar de eerste stappen &apos;s ochtends blijven pijn doen. Of je tenniselleboog
+                komt steeds terug zodra je weer begint met sporten of tuinieren. Je lichaam voelt alsof het niet
+                meewerkt.
               </p>
               <p className="text-tekst/80 leading-relaxed mb-6 reveal">Waarom?</p>
               <p className="text-tekst/80 leading-relaxed mb-6 reveal">
-                Omdat er een diepere disbalans is die niet wordt aangepakt. Je levensstijl kan worden aangepast, je
-                symptomen kunnen worden gedempt, maar als de energiestroom in je lichaam geblokkeerd is, blijven de
+                Omdat er vaak een diepere disbalans is die niet wordt aangepakt. De pijn kan worden gedempt, de
+                belasting kan worden aangepast, maar als de energiestroom in je lichaam vastloopt, blijven de
                 signalen terugkomen.
               </p>
               <p className="font-bold text-primair mb-4 reveal">Denk aan een rivier die verstopt raakt.</p>
               <p className="text-tekst/80 leading-relaxed mb-4 reveal">
                 Als er ergens een blokkade zit, kan het water niet goed stromen. Het stagneert. Er ontstaat druk.
                 Sommige plekken krijgen te veel water, andere te weinig. Zo werkt het ook in je lichaam. In de
-                Chinese geneeskunde noemen we die stroom Qi, je levensenergie, en die stroomt door meridianen, een
-                netwerk van energiebanen door je hele lichaam.
+                Chinese geneeskunde noemen we die stroom Qi, je levensenergie, en die stroomt samen met je Bloed
+                door meridianen, een netwerk van banen door je hele lichaam.
               </p>
               <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-                Als die stroom ergens vastloopt, ontstaan signalen: vermoeidheid die maar niet weggaat, spanning
-                die zich ophoopt in je lichaam, slaapproblemen of een gevoel dat je lichaam niet meer meewerkt.
+                Als die stroom ergens vastloopt, ontstaan signalen: stijfheid, spanning in spieren en pezen, pijn
+                die op één plek blijft zitten of gewrichten die niet meer soepel meebewegen. Er is een oud gezegde
+                in de Chinese geneeskunde: waar het vrij stroomt, is geen pijn.
               </p>
-              <p className="font-bold text-primair mb-6 reveal">Klachten die niemand kan verklaren.</p>
+              <p className="font-bold text-primair mb-6 reveal">Pijn die blijft, ook al rust je.</p>
               <p className="text-tekst/80 leading-relaxed reveal">
-                Acupunctuur herstelt die stroom. Het verwijdert de blokkade. En zodra de energie weer kan stromen
-                zoals het hoort, kan je lichaam zichzelf reguleren en herstellen.
+                Acupunctuur helpt die stroom te herstellen. Zodra de energie en het bloed weer vrij kunnen
+                stromen, krijgt je lichaam de ruimte om spieren, pezen en gewrichten te laten ontspannen en
+                herstellen.
               </p>
             </div>
             <div className="col-image">
@@ -109,11 +112,12 @@ export default function AcupunctuurPage() {
           Tijdens de intake vraag ik niet alleen naar je klachten. Ik vraag ook:
         </p>
         <ul id="intake-lijst" className="space-y-2 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
-          <li>Hoe slaap je? Word je vaak wakker? Kun je moeilijk in slaap komen?</li>
-          <li>Hoe is je spijsvertering? Veel last van je maag? Opgeblazen gevoel?</li>
+          <li>Waar zit de pijn, en wanneer begon het? Wat gebeurde er rond die tijd?</li>
+          <li>Wat maakt het erger of beter: beweging, rust, warmte of kou?</li>
+          <li>Hoe sport en beweeg je? Hoe herstel je daarna?</li>
+          <li>Hoe slaap je? Word je vaak wakker of kun je moeilijk in slaap komen?</li>
           <li>Ben je vaak moe, zelfs na een goede nachtrust?</li>
-          <li>Heb je last van stress, overweldiging, of emotionele drukte?</li>
-          <li>Wanneer begonnen de signalen, en wat gebeurde er in je leven rond die tijd?</li>
+          <li>Heb je last van stress, spanning of emotionele drukte?</li>
         </ul>
       </section>
 
@@ -131,36 +135,36 @@ export default function AcupunctuurPage() {
 
               <h3 className="text-lg font-bold text-primair mb-3 reveal">1. Stagnatie van Qi</h3>
               <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-                De energie in je lichaam loopt ergens vast. Dat geeft spanning, onrust, een gevoel van vastzitten.
-                Denk aan:
+                De energie en het bloed in je lichaam lopen ergens vast. Dat geeft spanning, pijn en een gevoel van
+                vastzitten. Denk aan:
               </p>
               <ul id="stagnatie-lijst" className="space-y-2 mb-4 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
-                <li>Spanning die zich ophoopt in je lijf</li>
+                <li>Spanning die zich ophoopt in nek, schouders of rug</li>
+                <li>Stekende of vastzittende pijn op één plek</li>
+                <li>Stijfheid in spieren, pezen of gewrichten</li>
                 <li>Stress die je niet kunt loslaten</li>
-                <li>Emoties die vastzitten</li>
-                <li>Een gevoel van overweldiging</li>
                 <li>Klachten die steeds terugkomen, hoe goed je ook zorgt voor jezelf</li>
               </ul>
               <p className="text-tekst/80 leading-relaxed mb-10 reveal">
-                De behandeling is dan gericht op het opheffen van de stagnatie zodat de energie weer vrij kan
-                stromen en je lichaam weer kan ontspannen.
+                De behandeling is dan gericht op het opheffen van de stagnatie zodat de energie en het bloed weer
+                vrij kunnen stromen en je lichaam weer kan ontspannen.
               </p>
 
               <h3 className="text-lg font-bold text-primair mb-3 reveal">2. Tekort aan Qi</h3>
               <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-                Er is simpelweg te weinig energie om door je lichaam te stromen. Dat herken je aan:
+                Er is simpelweg te weinig energie en voeding om je spieren, pezen en gewrichten goed te onderhouden.
+                Dat herken je aan:
               </p>
               <ul id="tekort-lijst" className="space-y-2 mb-4 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
+                <li>Traag herstel na sporten of inspanning</li>
+                <li>Een doffe, zeurende pijn die bij rust vaak wat beter is</li>
+                <li>Spieren die snel vermoeid raken</li>
                 <li>Chronische vermoeidheid, ook na genoeg slaap</li>
-                <li>Slapeloosheid; je lichaam heeft niet genoeg kracht om je slaap te reguleren</li>
-                <li>Een gevoel van uitputting</li>
-                <li>Traag herstel na inspanning of ziekte</li>
                 <li>Het gevoel dat je "op" bent</li>
               </ul>
               <p className="text-tekst/80 leading-relaxed reveal">
                 Dan is de behandeling gericht op het versterken van je Qi. En wat gebeurt er? Niet alleen
-                verdwijnen je signalen, je krijgt ook meer energie, meer veerkracht, meer kracht om je dag door te
-                komen.
+                neemt de pijn af, je krijgt ook meer energie, meer veerkracht en meer kracht om weer te bewegen.
               </p>
             </div>
             <div className="col-image">
@@ -173,32 +177,32 @@ export default function AcupunctuurPage() {
       {/* Waar acupunctuur bij helpt */}
       <section className="max-w-3xl mx-auto px-6 py-16">
         <h2 className="text-2xl font-bold text-primair mb-6 reveal">
-          Acupunctuur werkt bij chronische pijn, en zo veel meer
+          Waar ik acupunctuur bij inzet
         </h2>
         <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-          De meeste mensen kennen acupunctuur als behandeling voor fysieke klachten. En ja, dat werkt. Maar
-          acupunctuur kan zoveel meer.
-        </p>
-        <p className="text-tekst/80 leading-relaxed mb-6 reveal">
-          Omdat het werkt op het niveau van je energiesysteem, heeft het invloed op je hele lichaam. Hier een
-          kleine greep uit de signalen waar ik regelmatig mee werk:
+          Mensen komen bij mij vooral met pijn aan spieren, pezen en gewrichten. Hier een greep uit de klachten
+          waar ik regelmatig mee werk:
         </p>
         <ul id="signalen-lijst" className="grid gap-x-8 gap-y-2 sm:grid-cols-2 mb-8 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5 sm:border-l-0 sm:pl-0">
-          <li>Chronische vermoeidheid</li>
-          <li>Slapeloosheid</li>
-          <li>Stress en overweldiging</li>
-          <li>Emotionele disbalans</li>
-          <li>Spanning die niet weggaat</li>
-          <li>Hormonale klachten (overgang, menstruatie)</li>
-          <li>Spijsverteringsproblemen</li>
-          <li>Hoofdpijn en migraine</li>
-          <li>Hooikoorts</li>
-          <li>Klachten die niemand kan verklaren</li>
+          <li>Hielspoor</li>
+          <li>Tenniselleboog</li>
+          <li>Rugklachten</li>
+          <li>Nekklachten</li>
+          <li>Schouderklachten</li>
+          <li>Stijve of pijnlijke gewrichten</li>
+          <li>Spierspanning en spierpijn</li>
+          <li>Peesklachten</li>
+          <li>Traag herstel na sporten</li>
+          <li>Klachten die steeds terugkomen</li>
         </ul>
+        <p className="text-tekst/80 leading-relaxed mb-4 reveal">
+          Omdat acupunctuur werkt op het niveau van je energiesysteem, kijk ik naar het onderliggende patroon en
+          niet alleen naar de plek waar het pijn doet. Veel cliënten merken daardoor ook dat ze rustiger worden en
+          beter slapen.
+        </p>
         <p className="text-tekst/80 leading-relaxed reveal">
-          Zie je een rode draad? Chronische disbalans. Signalen die maar niet weggaan. Waar andere behandelingen
-          vastlopen. Dat is precies waar acupunctuur zo effectief is, omdat het níet alleen naar het symptoom
-          kijkt, maar naar het onderliggende patroon.
+          Naast pijnklachten werk ik ook met signalen als vermoeidheid, stress, slapeloosheid en hormonale klachten
+          in de overgang.
         </p>
       </section>
 
@@ -220,19 +224,23 @@ export default function AcupunctuurPage() {
           </p>
           <p className="text-tekst/80 leading-relaxed mb-6 reveal">
             Je lichaam werkt volgens de 5 elementen: Hout, Vuur, Aarde, Metaal, Water. Deze elementen zie je ook
-            terug in de seizoenen, in de natuur. En in jouw lichaam zijn ze verbonden met orgaansystemen:
+            terug in de seizoenen, in de natuur. En in jouw lichaam zijn ze verbonden met Orgaansystemen. Ook je
+            spieren, pezen, botten en gewrichten horen erbij:
           </p>
           <ul id="elementen-lijst" className="space-y-3 mb-6 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
-            <li><strong className="text-primair">Hout</strong> (Lever &amp; Galblaas): gaat over soepele beweging, emotionele flow, flexibiliteit</li>
-            <li><strong className="text-primair">Vuur</strong> (Hart &amp; Dunne Darm): gaat over vreugde, verbinding, mentale helderheid</li>
-            <li><strong className="text-primair">Aarde</strong> (Milt &amp; Maag): gaat over spijsvertering, zorgen, grounding</li>
-            <li><strong className="text-primair">Metaal</strong> (Long &amp; Dikke Darm): gaat over ademhaling, loslaten, verdriet</li>
-            <li><strong className="text-primair">Water</strong> (Nier &amp; Blaas): gaat over wilskracht, angst, diepe reserves</li>
+            <li><strong className="text-primair">Hout</strong> (Lever &amp; Galblaas): de pezen, en samen met Vuur de doorstroming van Qi en Bloed</li>
+            <li><strong className="text-primair">Vuur</strong> (Hart &amp; Dunne Darm): samen met Hout de doorstroming van Qi en Bloed</li>
+            <li><strong className="text-primair">Aarde</strong> (Milt &amp; Maag): de spieren</li>
+            <li><strong className="text-primair">Metaal</strong> (Long &amp; Dikke Darm): controleert de meridianen</li>
+            <li><strong className="text-primair">Water</strong> (Nier &amp; Blaas): de botten</li>
           </ul>
+          <p className="text-tekst/80 leading-relaxed mb-4 reveal">
+            Een gewricht is dus geen los onderdeel: botten, pezen, spieren en de doorstroming van Qi en Bloed komen
+            er samen. Daarom heeft een klacht in je gewricht vaak te maken met meer dan één element.
+          </p>
           <p className="text-tekst/80 leading-relaxed reveal">
-            Als er ergens in dit systeem een disbalans is, heeft dat gevolgen voor je hele lichaam. Dat is waarom
-            ik tijdens de intake zo doorvraag, ik wil weten welk element, welk orgaansysteem uit balans is. En
-            zodra ik dat weet, kan ik gericht behandelen.
+            Dat is waarom ik tijdens de intake zo doorvraag. Ik wil weten welk element, welk Orgaansysteem uit
+            balans is. En zodra ik dat weet, kan ik gericht behandelen.
           </p>
         </div>
       </section>
@@ -258,9 +266,10 @@ export default function AcupunctuurPage() {
             een boost aan energie. Beide zijn normaal.
           </p>
           <p className="reveal">
-            <strong className="text-primair">Na meerdere behandelingen:</strong> Meestal merk je na 3-5
-            behandelingen duidelijke vooruitgang. Pijn vermindert. Je slaapt beter. Je hebt meer energie. De
-            klachten die maanden of jaren bleven hangen, beginnen los te laten.
+            <strong className="text-primair">Na meerdere behandelingen:</strong> Veel cliënten merken na 3-5
+            behandelingen vooruitgang. De pijn neemt af, je beweegt soepeler en je herstelt sneller na het
+            sporten. Je slaapt vaak beter en hebt meer energie. Klachten die maanden of jaren bleven hangen,
+            beginnen los te laten. Hoe snel dit gaat, verschilt per persoon en per klacht.
           </p>
         </div>
       </section>

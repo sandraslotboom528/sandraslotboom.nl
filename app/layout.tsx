@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: 'Salacia · Acupunctuur en acupressuur',
     template: '%s · Salacia',
   },
-  description: 'Acupunctuur en holistische begeleiding in Delft — voor vrouwen die weer in balans willen komen met lichaam, emotie en energie.',
+  description: 'Acupunctuur in Delft bij pijn aan spieren, pezen en gewrichten — voor vrouwen die weer soepel en pijnvrij willen bewegen.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

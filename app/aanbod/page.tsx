@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const diensten = [
   {
     naam: 'Acupunctuurbehandeling',
-    beschrijving: 'Voor wie vastloopt in klachten die niemand kan verklaren — gericht op de oorzaak, niet alleen het symptoom.',
+    beschrijving: 'Voor wie pijn heeft aan spieren, pezen of gewrichten — gericht op de oorzaak, niet alleen het symptoom.',
     link: '/acupunctuur',
   },
   {
