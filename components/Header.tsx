@@ -20,7 +20,7 @@ const navLinks = [
   },
   { href: '/training-5-elementen-acupressuur', label: 'Acupressuurtraining' },
   { href: '/one-day-retreat', label: 'One Day Retreat' },
-  { href: '/gratis',        label: 'Gratis'       },
+  { href: '/gratis-e-book-acupressuur', label: 'Gratis e-book' },
   { href: '/blog',          label: 'Blog'         },
   { href: '/over-mij',      label: 'Over mij'     },
   { href: '/contact',       label: 'Contact'      },
