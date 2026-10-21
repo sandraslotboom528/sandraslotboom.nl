@@ -2479,6 +2479,86 @@ export const blogPosts: BlogPost[] = [
       { tekst: 'Acupressuur is een ondersteunende zelfzorgvorm en vervangt geen medische zorg. Heb je aanhoudende klachten, raadpleeg dan je huisarts of een behandelaar.' },
     ],
   },
+  {
+    slug: 'metaal-uit-balans',
+    titel: 'Droogte, verdriet en een dunne mantel: het Metaalelement uit balans',
+    datum: '2026-10-21',
+    samenvatting: 'De herfst is het seizoen van het Metaalelement: kuchen, een droge huid, weemoed. Over de ziekteoorzaken door de bril van Metaal en wat je er in de herfst zelf aan kunt doen.',
+    foto: '/fotos/blog-metaal-droogte.jpg',
+    inhoud: [
+      { tekst: 'De herfst laat zich niet negeren. De ochtenden worden kil, de bladeren laten los en de lucht voelt ineens droger en helderder. In de 5 elementenleer is dit het seizoen van het Metaalelement: de tijd van inademen, loslaten en terugbrengen tot de kern.' },
+      { tekst: 'Het is ook het seizoen waarin veel mensen gaan kuchen, een loopneus krijgen, een droge huid opmerken of zich onverklaarbaar weemoedig voelen. Toeval is dat niet. In de Chinese geneeskunde kijken we niet alleen naar wát er uit balans raakt, maar ook naar waar het vandaan komt. In deze blog neem ik je mee in de ziekteoorzaken, gezien door de bril van het Metaalelement.' },
+
+      { kop: 'Drie soorten ziekteoorzaken' },
+      { tekst: 'De Chinese geneeskunde onderscheidt traditioneel drie groepen ziekteoorzaken:' },
+      { lijst: [
+        'Externe oorzaken: klimatologische invloeden die van buitenaf het lichaam binnendringen',
+        'Interne oorzaken: emoties die van binnenuit de Qi verstoren',
+        'Oorzaken die noch inwendig noch uitwendig zijn: alles wat niet Extern of Intern is, zoals leefstijl, voeding, uitputting, ongelukken',
+      ] },
+      { tekst: 'Voor elk van deze drie heeft het Metaalelement een eigen, kwetsbare plek.' },
+
+      { kop: '1. Uitwendige oorzaken: Wind en Droogte' },
+      { tekst: 'De Longen liggen het hoogst in de romp, staan via de neus en de huid direct in contact met de buitenwereld en zijn daardoor het eerste orgaan dat geraakt wordt als er iets van buiten binnenkomt.' },
+      { tekst: 'De Longen verspreiden de beschermende Qi (Wei Qi) naar de huid, als een soort zachte, onzichtbare mantel om je heen. Is die mantel sterk, dan waait er veel langs je heen. Is hij dun, dan krijgen bijvoorbeeld wind en kou makkelijk vat op je.' },
+      { tekst: 'Wind wordt gezien als de drager van andere invloeden. Wind-Kou geeft het bekende beeld van rillerigheid, een stijve nek, niezen en een heldere loopneus. Wind-Hitte laat zich eerder zien als een rauwe keel, koorts en geel slijm.' },
+      { tekst: 'Droogte is het klimaat dat het meest specifiek bij Metaal hoort. De Longen houden van een zekere vochtigheid; droogte onttrekt hun dat. Denk aan een droge hoest zonder slijm, een droge keel, schrale lippen, een droge huid en ontlasting die moeilijk op gang komt. Droogte komt niet alleen van buiten: centrale verwarming, lange dagen achter een scherm en te weinig rust kunnen het lichaam van binnenuit uitdrogen.' },
+      { tekst: 'Een klein inzicht dat ik vaak meegeef: wie het hele jaar door snel verkouden is, heeft meestal niet alleen pech met de buitenwereld. Vaak is de beschermende laag zelf dun geworden.' },
+
+      { kop: '2. Inwendige oorzaken: verdriet dat blijft hangen' },
+      { tekst: 'Elk element heeft een emotie die bij hem hoort. Voor Metaal is dat verdriet. Verdriet is niet verkeerd; het is de natuurlijke beweging van loslaten. Een verlies dat je doorvoelt, beweegt en wordt na verloop van tijd zachter.' },
+      { tekst: 'Het wordt een ziekteoorzaak wanneer het verdriet geen ruimte krijgt, of juist nooit meer weggaat. In de klassieke geneeskunde staat er dat verdriet de Qi oplost: het teert langzaam op je levenskracht in. Je herkent het aan:' },
+      { lijst: [
+        'oppervlakkig ademen, alsof er een band om je borst zit',
+        'een zachte, vermoeide stem',
+        'vaak een zucht slaken',
+        'je terugtrekken en minder contact zoeken',
+        'een gevoel van leegte of gemis dat je niet goed kunt plaatsen',
+      ] },
+      { tekst: 'Ook langdurig piekeren en zorgen maken, eigenlijk de emotie van Aarde, knopen de Long-Qi vast. Bij vrouwen die altijd \'aan\' staan, zie ik dat vaak samengaan: het hoofd blijft draaien, de schouders gaan omhoog en de adem zakt nergens meer naar beneden. Er is dan geen ruimte om te voelen wat er losgelaten wil worden.' },
+      { tekst: 'De Po, de lichamelijke ziel die in de Longen woont, is nauw verbonden met ons lijf en onze zintuigen. Als verdriet in het lichaam blijft hangen, voelt de Po zich opgesloten. De huid kan dan reageren, de adem wordt stil en klein, en het contact met je eigen lichaam wordt dunner.' },
+
+      { kop: '3. Noch inwendig, noch uitwendig: hoe je leeft' },
+      { tekst: 'De derde groep gaat over dagelijkse gewoontes. Hier ligt vaak de meeste ruimte voor verandering.' },
+      { lijst: [
+        'Houding en ademhaling. Urenlang ingezakt achter een bureau zitten drukt de borstkas samen. De Longen krijgen letterlijk minder ruimte, en de adem blijft hoog en snel.',
+        'Te veel praten. Dat klinkt misschien vreemd, maar in de Chinese geneeskunde kost spreken Long-Qi. Wie de hele dag praat, overlegt, uitlegt en geruststelt, zoals veel mensen in zorgende beroepen, kan aan het eind van de dag letterlijk leeg zijn.',
+        'Roken en vervuilde lucht. Die verwarmen en drogen de Longen uit en verstoren hun neerdalende beweging.',
+        'Uitputting. Te lang doorgaan zonder herstel put eerst de Qi uit en later ook de Yin. Long-Yin-Leegte zie je aan een droge, kriebelende hoest, een warm gevoel in de middag of avond en nachtzweten.',
+      ] },
+
+      { kop: 'Hoe Metaal uit balans raakt via de andere elementen' },
+      { tekst: 'Klachten ontstaan zelden geïsoleerd. Een paar verbanden om in gedachten te houden:' },
+      { lijst: [
+        'Aarde voedt Metaal niet genoeg → vermoeidheid, slijm, snel verkouden, weinig adem. De oorzaak ligt dan eigenlijk bij de Milt.',
+        'Vuur controleert Metaal te sterk → hitte die de Longen uitdroogt, onrust, een droge hoest. Te veel spanning, opwinding en te weinig slaap voeden dat Vuur.',
+        'Hout keert zich tegen Metaal → normaal houdt Metaal Hout in toom, maar opgekropte frustratie en Lever-Vuur kunnen omhoog slaan naar de Longen. Je ziet dan bijvoorbeeld hoestbuien die erger worden bij stress of boosheid.',
+        'Metaal voedt Water niet → de Longen sturen Qi naar beneden, de Nieren ontvangen die. Is die verbinding zwak, dan ontstaat kortademigheid, vooral bij inspanning.',
+      ] },
+
+      { kop: 'Metaal in balans' },
+      { tekst: 'Wanneer Metaal in balans is, adem je ruim en diep. Je huid is soepel, je stem helder, je ontlasting regelmatig. Je kunt waarderen wat er is en loslaten wat voorbij is. Je hebt een natuurlijk gevoel voor eigenwaarde en hoeft niet alles vast te houden om je veilig te voelen.' },
+      { tekst: 'Er zit een zekere helderheid in Metaal: het vermogen om onderscheid te maken tussen wat van waarde is en wat niet. Dat geldt voor lucht en voedsel, maar net zo goed voor je agenda, je gedachten en je relaties.' },
+
+      { kop: 'Wat je zelf kunt doen in de herfst' },
+      { lijst: [
+        'Bescherm je nek en borst. Een sjaal is in deze tijd van het jaar meer dan een accessoire; het beschermt de plek waar wind het makkelijkst binnenkomt.',
+        'Eet verwarmend en licht bevochtigend. Gekookt fruit, soepen, havermout, een beetje gember. Minder koud, rauw en zuivel.',
+        'Adem bewust laag. Leg je handen op je onderbuik en laat de adem daar naartoe zakken. Een paar minuten per dag is al genoeg om het verschil te voelen.',
+        'Geef verdriet een plek. Schrijven, huilen, een wandeling in de natuur. Verdriet dat mag bewegen, wordt geen ziekteoorzaak.',
+        'Neem bewust rust van praten. Een kwartier stilte op een volle dag is voeding voor je Longen.',
+      ] },
+
+      { kop: 'Tot slot' },
+      { tekst: 'De herfst nodigt ons uit om te doen wat de bomen doen: loslaten zonder te weten wat er komt, in vertrouwen dat er onder de oppervlakte iets nieuws wordt voorbereid. Metaal leert ons dat loslaten geen verlies hoeft te zijn, maar ruimte maakt voor een volgende, diepere adem.' },
+      { tekst: 'Kijk deze weken eens met zachte aandacht naar jezelf. Waar houd je je adem in? Wat mag er gaan?' },
+
+      { kop: 'Verder leren met je handen' },
+      { tekst: 'Metaal is één van de vijf elementen, en elk element heeft zijn eigen kwetsbare plekken. Wil je ook ontdekken hoe Hout, Vuur, Aarde en Water uit balans raken, en wat je daar zelf met zachte aanraking aan kunt doen?' },
+      { tekst: 'In mijn online training 5 elementen acupressuur leer je per element de ziekteoorzaken herkennen en de acupressuurpunten vinden die daarbij horen. Zo kun je jezelf, op je eigen tempo en vanuit huis, steeds weer terugbrengen naar rust en helderheid.', linkTekst: 'online training 5 elementen acupressuur', linkHref: '/training-5-elementen-acupressuur' },
+      { cta: 'Bekijk de online training 5 elementen acupressuur →', href: '/training-5-elementen-acupressuur' },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
