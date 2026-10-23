@@ -335,8 +335,8 @@ export default function TrainingPage() {
               acupressuurpunten en het samenstellen van je eigen routine. Deze vinden plaats op:
             </p>
             <ul className="space-y-1 mb-4 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
-              <li>2 november om 14.00 uur</li>
-              <li>18 november om 19.00 uur</li>
+              <li>Woensdag 20 januari om 19.00 uur</li>
+              <li>Maandag 1 februari om 14.00 uur</li>
             </ul>
             <p className="text-tekst/80 leading-relaxed">
               Zo kun je nu al aan de slag met de basis én de acupressuurpunten, en stap voor stap een
