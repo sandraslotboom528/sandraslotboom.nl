@@ -134,6 +134,23 @@ body {
   }
 }
 
+/* Hero op de adventskalenderpagina: de titel staat linksonder in de
+   afbeelding en moet buiten beeld vallen. Op desktop snijden we vanaf de
+   bovenkant uit en houden we de afbeelding minstens 1220px breed, zodat de
+   onderkant ook op smallere schermen buiten de 480px hoogte valt. Op mobiel
+   schuiven we naar de foto's rechts. */
+@media (min-width: 769px) {
+  .hero-section-advent {
+    background-position: center top;
+    background-size: max(100%, 1220px) auto;
+  }
+}
+@media (max-width: 768px) {
+  .hero-section-advent {
+    background-position: 90% center;
+  }
+}
+
 /* Sectie die direct na de hero komt en eroverheen schuift.
    Moet een dekkende achtergrond hebben, anders blijft de hero zichtbaar. */
 .hero-cover {
