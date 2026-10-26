@@ -141,9 +141,9 @@ export default function AdventskalenderPage() {
                   wat die bij je oproept.
                 </p>
                 <ul id="decks-lijst" className="space-y-2 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5 mb-4">
-                  <li>Een digitaal godinnen carddeck</li>
-                  <li>Een digitaal elfjes carddeck</li>
-                  <li>Een digitaal innerlijk kind carddeck</li>
+                  <li>Een digitaal godinnen carddeck <span className="text-tekst/60">(waarde €18,50)</span></li>
+                  <li>Een digitaal elfjes carddeck <span className="text-tekst/60">(waarde €18,50)</span></li>
+                  <li>Een digitaal innerlijk kind carddeck <span className="text-tekst/60">(waarde €18,50)</span></li>
                 </ul>
                 <p className="text-tekst/80 leading-relaxed reveal">
                   Je kiest zelf uit welk deck je een kaart wilt trekken. Laat je keuze aansluiten bij je stemming of
@@ -172,8 +172,11 @@ export default function AdventskalenderPage() {
             Misschien herken je een verlangen naar meer zachtheid. Misschien vraagt juist je kracht, je eigen stem
             of je vermogen om te ontvangen om aandacht.
           </p>
-          <p className="text-tekst/80 leading-relaxed reveal">
+          <p className="text-tekst/80 leading-relaxed mb-6 reveal">
             Geef jezelf een moment om dat te verkennen, op een tijdstip dat voor jou past.
+          </p>
+          <p className="text-tekst/60 leading-relaxed reveal">
+            Waarde van de Inner Essence Godinnen Journey: €27,50
           </p>
         </section>
 
@@ -234,6 +237,10 @@ export default function AdventskalenderPage() {
               Alles is digitaal, zodat je je dagelijkse moment kunt beleven op een plek die prettig voor je is.
             </p>
             <h3 className="text-xl font-bold text-primair mb-4 reveal">Investering</h3>
+            <p className="text-tekst/80 leading-relaxed mb-4 reveal">
+              De drie carddecks (elk €18,50) en de Inner Essence Godinnen Journey (€27,50) hebben samen al een
+              waarde van €83,-. Je krijgt ze bij de adventskalender inbegrepen.
+            </p>
             <p className="text-tekst/80 leading-relaxed mb-4 reveal">
               Hoe eerder je instapt, hoe voordeliger:
             </p>
