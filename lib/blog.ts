@@ -2559,6 +2559,73 @@ export const blogPosts: BlogPost[] = [
       { cta: 'Bekijk de online training 5 elementen acupressuur →', href: '/training-5-elementen-acupressuur' },
     ],
   },
+  {
+    slug: 'advent-en-de-5-elementen',
+    titel: 'De adventsperiode en de 5 elementen',
+    datum: '2026-10-28',
+    samenvatting: 'Advent is van oudsher een tijd van bezinning en stilte. Een innerlijke reis door de voedende cyclus van de vijf elementen, van ruimte maken met Metaal tot landen bij jezelf met Aarde.',
+    foto: '/fotos/blog-advent.jpg',
+    inhoud: [
+      { tekst: 'De adventsperiode is van oudsher een tijd van bezinning, stilte en voorbereiding. Vier weken lang worden we uitgenodigd om te vertragen, te luisteren en ruimte te maken voor het licht dat opnieuw geboren wil worden. Terwijl buiten de natuur tot stilstand komt, mogen wij naar binnen keren, naar onze eigen innerlijke stilte, naar onze essentie, naar het licht dat in ons leeft.' },
+      { tekst: 'De vijf elementen uit de Chinese geneeskunde spiegelen dit proces prachtig. Elk element vertegenwoordigt een beweging in de natuur en in onszelf: een fase in de voortdurende cyclus van groei, bloei, oogst, loslaten en rust.' },
+
+      { kop: 'De voedende cyclus' },
+      { tekst: 'In de 5 elementenleer voeden de elementen elkaar in een vaste volgorde: de voedende cyclus, ook wel de sheng-cyclus genoemd. Je kunt het zien als een moeder die haar kind voedt.' },
+      { lijst: ['Metaal voedt Water.', 'Water voedt Hout.', 'Hout voedt Vuur.', 'Vuur voedt Aarde.', 'Aarde voedt weer Metaal.'] },
+      { tekst: 'Wanneer je de advent door de lens van deze cyclus bekijkt, begin je bij stilstaan en ademruimte (Metaal) en eindig je bij landen in jezelf (Aarde), precies wanneer Kerst aanbreekt. Je kunt de adventsperiode bijvoorbeeld indelen in 5 x 5 dagen, zodat elk element vijf dagen de ruimte krijgt.' },
+
+      { kop: 'Metaal – Stilstaan bij wat waardevol is' },
+      { tekst: 'Metaal is het element van helderheid, eenvoud en wat werkelijk waardevol is. Metaal hoort bij de herfst, het seizoen waar we nog middenin staan als de advent begint. De bomen hebben hun bladeren laten vallen en alleen het essentiële blijft over.' },
+      { tekst: 'Juist aan het begin van een maand die vaak alle kanten op gaat, nodigt Metaal je uit om even stil te staan. Wat is echt waardevol voor jou? En waar heb je ademruimte nodig, voordat je agenda volloopt met verplichtingen en verwachtingen?' },
+      { tekst: 'In de Chinese geneeskunde hoort bij Metaal de Longenergie, samen met de Dikke Darm. De Longen leren ons om in te ademen wat we nodig hebben, de Dikke Darm helpt ons los te laten wat we niet meer nodig hebben. De emotie van Metaal is verdriet: het gevoel dat hoort bij afscheid nemen en loslaten.' },
+      { tekst: 'De energie van het Metaalelement helpt je om ruimte te maken. Ruimte voor alles wat daarna in je wil groeien.' },
+
+      { kop: 'Water – Vertragen en luisteren' },
+      { tekst: 'Metaal voedt Water: wat je hebt losgelaten, maakt ruimte om dieper te zakken. Water is de diepste Yin, de stilte van de winter, de donkere bron waaruit nieuw leven geboren wordt.' },
+      { tekst: 'Water staat voor overgave, vertrouwen en de stroom van het leven zelf. Het nodigt je uit om te vertragen, om niet te weten, om te luisteren naar wat dieper in je leeft.' },
+      { tekst: 'In de Chinese geneeskunde horen bij Water de Nieren en de Blaas. De Nierenergie is onze innerlijke levensbron, de reserve waaruit we putten. Wanneer we rust nemen en luisteren naar onze intuïtie, vullen we deze bron aan. De emotie van Water is angst. In balans wordt die angst voorzichtigheid en vertrouwen.' },
+      { tekst: 'De energie van het Waterelement herinnert ons eraan dat het nieuwe niet uit actie ontstaat, maar uit overgave. Dat juist in de stilte het nieuwe leven zich vormt.' },
+
+      { kop: 'Hout – Onderzoeken waar je naartoe wilt' },
+      { tekst: 'Uit de stilte van Water ontstaat beweging. Water voedt Hout, zoals water het zaadje in de donkere aarde laat ontkiemen. Hout is het element van groei, vernieuwing en visie. Het hoort bij de lente, bij het zaadje dat al zijn weg zoekt naar het licht.' },
+      { tekst: 'Hoewel het buiten nog winterstil is, begint er in ons iets te bewegen. In de stilte van december ontkiemen de eerste verlangens en dromen voor het komende jaar. Hout nodigt je uit om te onderzoeken waar je naartoe wilt en wat in beweging mag komen.' },
+      { tekst: 'In de Chinese geneeskunde horen bij Hout de Lever en de Galblaas. De Leverenergie zorgt voor stroming en richting, de Galblaas voor het nemen van beslissingen. Als deze energie vrij kan bewegen, voelen we inspiratie, creativiteit en zin om iets nieuws te laten groeien. Raakt de stroming geblokkeerd, dan kan dat zich uiten in irritatie of boosheid, de emotie van Hout.' },
+      { tekst: 'De energie van het Houtelement herinnert je eraan dat zelfs in de diepste duisternis een nieuwe cyclus begint, onzichtbaar, maar krachtig aanwezig.' },
+
+      { kop: 'Vuur – Contact, warmte en wat je hart raakt' },
+      { tekst: 'Hout voedt Vuur, zoals hout de vlam laat branden. Vuur is het element van warmte, liefde en verbinding. Waar Hout de groei symboliseert, brengt Vuur ons naar de vreugde van het delen.' },
+      { tekst: 'In deze periode vullen huizen zich met lichtjes, geuren en ontmoetingen. Maar voorbij de uiterlijke gezelligheid nodigt Vuur je uit om aandacht te geven aan contact, aan warmte en aan wat je hart raakt. De vlam in je hart verspreidt warmte en compassie, eerst naar jezelf, dan naar de wereld om je heen.' },
+      { tekst: 'In de Chinese geneeskunde horen bij Vuur het Hart en de Dunne Darm. Het Hart wordt gezien als de keizer, de zetel van onze geest, de Shen. De emotie van Vuur is vreugde. Wanneer het Hart in balans is, voelen we ons verbonden, geïnspireerd en in vrede met onszelf.' },
+      { tekst: 'De energie van het Vuurelement herinnert ons eraan dat het licht waar we op wachten niet buiten ons is, het leeft in ons.' },
+
+      { kop: 'Aarde – Landen bij jezelf' },
+      { tekst: 'Vuur voedt Aarde, zoals as de aarde vruchtbaar maakt. Aarde is het centrum, het rustpunt tussen de bewegingen van de andere elementen. Aarde gaat over voeding, zorg en verbondenheid.' },
+      { tekst: 'Te midden van de drukte vlak voor Kerst herinnert Aarde ons eraan om te landen. Om even stil te staan bij wat er al ís. Om te zakken uit het hoofd naar het lichaam, uit de verwachting naar het moment. En om te voelen wat jou werkelijk voedt.' },
+      { tekst: 'In de Chinese geneeskunde horen bij Aarde de Milt en de Maag. Zij zorgen voor de vertering, niet alleen van voedsel, maar ook van indrukken en gedachten. De emotie van Aarde is piekeren. Wanneer deze energie sterk is, voelen we ons gedragen, aanwezig en in balans.' },
+      { tekst: 'De energie van het Aarde-element nodigt ons uit om te rusten in het nu. Om te voelen dat er niets hoeft, dat je mag zijn waar je bent.' },
+
+      { kop: 'Een innerlijke reis van ruimte naar thuiskomen' },
+      { tekst: 'Als we de adventsperiode op deze manier beleven, maken we een reis door de voedende cyclus van de vijf elementen:' },
+      { lijst: ['Metaal – Ademruimte en wat waardevol is', 'Water – Vertragen en luisteren', 'Hout – Richting en beweging', 'Vuur – Contact en warmte', 'Aarde – Landen en voeding'] },
+      { tekst: 'Het is een reis van ruimte maken naar thuiskomen, van loslaten naar gedragen worden. Elk element voedt het volgende, en zo beweeg je mee met de seizoenen in jezelf.' },
+
+      { kop: 'Van licht ontsteken naar licht belichamen' },
+      { tekst: 'In onze moderne tijd is de adventsperiode vaak gevuld met drukte, verplichtingen en verwachtingen. Maar de oude betekenis van advent is juist het tegenovergestelde: ruimte maken.' },
+      { lijst: ['Ruimte om te ademen.', 'Ruimte om te voelen.', 'Ruimte om het licht dat je zoekt te laten groeien in jezelf.'] },
+      { tekst: 'Wanneer je de vijf elementen als leidraad gebruikt, wordt advent een innerlijke pelgrimstocht, van het heldere, ruimtemakende Metaal naar de warme, dragende Aarde.' },
+      { tekst: 'En wanneer Kerst dan aanbreekt, hoef je het licht niet meer buiten jezelf te zoeken. Je bént het licht.' },
+
+      { kop: 'Tot slot' },
+      { tekst: 'De vijf elementen zijn geen theorie, maar een levend ritme dat ons herinnert aan wie we zijn: deel van de natuur, deel van het grote geheel.' },
+      { tekst: 'Deze advent kun je ze gebruiken als zachte gidsen, niet om meer te doen, maar om dieper te zijn.' },
+      { tekst: 'Om ruimte te maken (Metaal), te luisteren (Water), richting te voelen (Hout), lief te hebben (Vuur) en uiteindelijk te landen (Aarde).' },
+      { tekst: 'Zo wordt advent een reis naar huis, naar jezelf, naar warmte en innerlijk licht.' },
+
+      { kop: 'Digitale adventskalender' },
+      { tekst: 'Wil je deze reis dag voor dag maken? Mijn digitale adventskalender neemt je van 30 november tot en met 24 december mee door de vijf elementen, met iedere dag een acupressuurpunt, een reflectievraag en een affirmatie.', linkTekst: 'digitale adventskalender', linkHref: '/digitale-adventskalender' },
+      { cta: 'Bekijk de adventskalender →', href: '/digitale-adventskalender' },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
