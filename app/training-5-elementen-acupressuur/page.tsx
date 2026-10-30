@@ -104,7 +104,7 @@ export default function TrainingPage() {
             Ja, ik wil weten wat ik zelf kan doen →
           </a>
           <p className="text-tekst/60 text-sm mt-4 reveal">
-            Online training · in je eigen tempo · nu instappen voor €140,-
+            Online training · in je eigen tempo · nu instappen voor €185,-
           </p>
         </section>
 
@@ -320,14 +320,14 @@ export default function TrainingPage() {
             Van zoeken naar losse gezondheidstips naar weten wat jij dagelijks voor je lichaam kunt doen.
           </p>
           <div className="bg-wit rounded-2xl p-8 mb-8 text-left reveal">
-            <h3 className="text-xl font-bold text-primair mb-4">Stap nu in voor €140,-</h3>
+            <h3 className="text-xl font-bold text-primair mb-4">Stap nu in voor €185,-</h3>
             <p className="text-tekst/80 leading-relaxed mb-4">
               De eerste 3 modules staan voor je klaar, inclusief de module met de acupressuurpunten. Je kunt
               dus meteen beginnen en ze in je eigen tempo doorlopen.
             </p>
             <p className="text-tekst/80 leading-relaxed mb-4">
               De training groeit de komende tijd verder. Bij elke nieuwe module gaat de instapprijs een stapje
-              omhoog. Als je nu instapt voor €140,-, krijg je alle volgende modules erbij zonder extra te betalen.
+              omhoog. Als je nu instapt voor €185,-, krijg je alle volgende modules erbij zonder extra te betalen.
               Je betaalt dus één keer en groeit mee met de volledige training.
             </p>
             <p className="text-tekst/80 leading-relaxed mb-4">
@@ -345,7 +345,7 @@ export default function TrainingPage() {
           </div>
           <a href={TRAINING_URL} target="_blank" rel="noopener noreferrer"
             className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity reveal">
-            Ja, ik stap in voor €140,- →
+            Ja, ik stap in voor €185,- →
           </a>
         </section>
       </div>
