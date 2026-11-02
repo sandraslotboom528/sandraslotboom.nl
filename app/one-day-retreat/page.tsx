@@ -4,7 +4,7 @@ import ScrollReveal from '@/components/ScrollReveal';
 export const metadata: Metadata = {
   title: 'One Day Retreat',
   description:
-    'One Day Retreat op zaterdag 19 december 2026 in Schipluiden: een dag voor jezelf, gedragen door de 5 elementen.',
+    'One Day Retreat op zaterdag 13 februari 2027 in Schipluiden: een dag voor jezelf, gedragen door de 5 elementen.',
 };
 
 const AANMELD_URL = 'https://laposta.nl/f/ssybx13cao99';
@@ -59,21 +59,25 @@ export default function OneDayRetreatPage() {
               <p className="text-lg font-bold text-primair/90 leading-relaxed mb-2 reveal">
                 Een dag voor jezelf, gedragen door de 5 elementen.
               </p>
-              <p className="text-tekst/60 mb-8 reveal">Zaterdag 19 december 2026 · 10.00 – 16.30 uur · Yogazolder van Oker, Schipluiden</p>
+              <p className="text-tekst/60 mb-8 reveal">Zaterdag 13 februari 2027 · 10.00 – 16.30 uur · Yogazolder van Oker, Schipluiden</p>
               <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-                Het einde van het jaar komt eraan. De agenda loopt vol, de lijstjes worden langer en iedereen wil nog
+                Het nieuwe jaar is alweer begonnen. De agenda loopt vol, de lijstjes worden langer en iedereen wil
                 iets van je.
               </p>
               <p className="font-bold text-primair mb-4 reveal">
-                Wanneer heb jij dit jaar eigenlijk stilgestaan bij jezelf?
+                Wanneer heb jij voor het laatst echt stilgestaan bij jezelf?
               </p>
               <p className="text-tekst/80 leading-relaxed mb-6 reveal">
-                Bij wat er allemaal gebeurd is. Bij wat je hebt gedragen. En bij wat je volgend jaar anders wilt.
+                Bij wat er allemaal gebeurd is. Bij wat je hebt gedragen. En bij wat je dit jaar anders wilt.
+              </p>
+              <p className="text-tekst/80 leading-relaxed mb-4 reveal">
+                Op zaterdag 13 februari nodig ik je uit om het jaar te beginnen met aandacht voor jezelf. Tijdens dit
+                One Day Retreat bewegen we door de 5 elementen. Elk onderdeel geeft je op een andere manier ruimte om
+                stil te staan, vooruit te kijken en te voelen wat je mee wilt nemen in 2027.
               </p>
               <p className="text-tekst/80 leading-relaxed mb-8 reveal">
-                Op zaterdag 19 december nodig ik je uit om het jaar af te sluiten met aandacht voor jezelf. Tijdens dit
-                One Day Retreat bewegen we door de 5 elementen. Elk onderdeel geeft je op een andere manier ruimte om
-                stil te staan, vooruit te kijken en te voelen wat je mee wilt nemen naar 2027.
+                Op 6 februari begint het Chinese nieuwjaar. Deze dag, precies een week later, sluit daar perfect op
+                aan: een mooi moment om ook voor jezelf een nieuw begin te maken.
               </p>
               <a href={AANMELD_URL} target="_blank" rel="noopener noreferrer"
                 className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity reveal">
@@ -149,9 +153,9 @@ export default function OneDayRetreatPage() {
           <h2 className="text-2xl font-bold text-primair mb-6 reveal">Deze dag is voor jou als…</h2>
           <ul id="voorwie-lijst" className="space-y-2 mb-8 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
             <li>…je vaak voor anderen klaarstaat en zelf achteraan sluit.</li>
-            <li>…je het jaar niet ongemerkt voorbij wilt laten gaan.</li>
-            <li>…je verlangt naar een moment van rust in de drukke decembermaand.</li>
-            <li>…je met richting en vertrouwen het nieuwe jaar in wilt stappen.</li>
+            <li>…je niet ongemerkt weer in de oude drukte wilt schieten.</li>
+            <li>…je verlangt naar een moment van rust in de winter.</li>
+            <li>…je met richting en vertrouwen verder wilt in het nieuwe jaar.</li>
             <li>…je nieuwsgierig bent naar de wijsheid van de 5 elementen.</li>
             <li>…of wanneer je simpelweg voelt: deze dag is voor mij.</li>
           </ul>
@@ -168,11 +172,11 @@ export default function OneDayRetreatPage() {
               <div className="col-text">
                 <h2 className="text-2xl font-bold text-primair mb-6 reveal">Praktische informatie</h2>
                 <div className="bg-achtergrond rounded-2xl p-8 space-y-2 text-tekst/80 leading-relaxed mb-8 reveal">
-                  <p><strong className="text-primair">Datum:</strong> zaterdag 19 december 2026</p>
+                  <p><strong className="text-primair">Datum:</strong> zaterdag 13 februari 2027</p>
                   <p><strong className="text-primair">Tijd:</strong> 10.00 – 16.30 uur</p>
                   <p><strong className="text-primair">Locatie:</strong> de yogazolder van Oker in Schipluiden</p>
                   <p><strong className="text-primair">Investering:</strong> € 158,-</p>
-                  <p><strong className="text-primair">Snelle beslissersprijs:</strong> € 122,- (t/m 1 november)</p>
+                  <p><strong className="text-primair">Snelle beslissersprijs:</strong> € 122,- (t/m 5 december)</p>
                   <p><strong className="text-primair">Groepsgrootte:</strong> maximaal 14 deelnemers</p>
                 </div>
                 <p className="font-bold text-primair mb-2 reveal">Inclusief:</p>
@@ -213,15 +217,15 @@ export default function OneDayRetreatPage() {
           <p className="text-tekst/80 leading-relaxed mb-1 reveal">Om te landen met Aarde.</p>
           <p className="text-tekst/80 leading-relaxed mb-6 reveal">En om los te laten met Metaal.</p>
           <p className="text-tekst/80 leading-relaxed mb-1 reveal">
-            Zodat je het nieuwe jaar niet haastig in rent,
+            Zodat je dit jaar niet voorbij rent,
           </p>
-          <p className="font-bold text-primair mb-8 reveal">maar er bewust in stapt.</p>
+          <p className="font-bold text-primair mb-8 reveal">maar het bewust beleeft.</p>
           <a href={AANMELD_URL} target="_blank" rel="noopener noreferrer"
             className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity reveal">
             Meld je aan voor het One Day Retreat →
           </a>
           <p className="text-tekst/60 text-sm mt-4 reveal">
-            Meld je uiterlijk 1 november aan voor de snelle beslissersprijs van € 122,-.
+            Meld je uiterlijk 5 december aan voor de snelle beslissersprijs van € 122,-.
           </p>
         </section>
       </div>
