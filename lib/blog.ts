@@ -2742,6 +2742,72 @@ export const blogPosts: BlogPost[] = [
       { tekst: 'Maar er ook werkelijk in aanwezig zijn.' },
     ],
   },
+  {
+    slug: 'schouders-vasthouden-loslaten',
+    titel: 'Waarom je schouders vasthouden wat je hart al los wil laten',
+    datum: '2026-11-06',
+    samenvatting: 'Je schouders vertellen een verhaal over ademen, dragen en loslaten. Over de Long, de Dikke Darm en het Metaalelement, met een kleine oefening om neer te leggen wat je niet meer hoeft te dragen.',
+    foto: '/fotos/blog-schouder.jpg',
+    inhoud: [
+      { tekst: 'Het is avond. De dag is voorbij, de laatste mail is verstuurd, het huis is stil. En toch, als je even let op je lichaam, merk je het: je schouders hangen nog ergens rond je oren. Of juist andersom: ze zijn naar voren gezakt, je borst wat ingevallen, alsof je je ergens tegen beschermt.' },
+      { tekst: 'Misschien herken je ook dat je adem niet verder komt dan je borst. Dat je af en toe diep zucht, zonder te weten waarom.' },
+      { tekst: 'Je schouders vertellen een verhaal. In de Chinese geneeskunde is dat een verhaal over ademen, over dragen en over loslaten. En dat brengt ons bij het Metaalelement: het element van de herfst.' },
+      { tekst: 'Bij Metaal horen twee organen die samen één ritme vormen: de Long en de Dikke Darm. De een ontvangt, de ander laat los. Inademen en uitademen.' },
+
+      { kop: 'De Long: ontvanger van de hemelse Qi' },
+      { tekst: 'Met elke inademing neem je iets van buiten naar binnen. De Long is in de Chinese geneeskunde het orgaan dat de Qi uit de lucht ontvangt en verspreidt door het hele lichaam. Ze wordt ook wel het tere orgaan genoemd: het enige orgaan dat rechtstreeks in contact staat met de buitenwereld.' },
+      { tekst: 'De Longmeridiaan komt aan de voorkant van je lichaam naar buiten, net onder het sleutelbeen, aan de voorkant van je schouder. Van daaruit loopt hij langs de binnenkant van je arm naar je duim. Precies het gebied dat je onbewust beschermt als je je schouders naar voren laat zakken.' },
+      { tekst: 'Kijk maar eens naar iemand die verdrietig is. De schouders gaan naar voren, de borst valt in, het hoofd zakt. Het lichaam maakt een schelp om het tere Longgebied heen. Dat is geen zwakte, het is bescherming. Maar als die houding blijft, terwijl het verdriet allang een plek had mogen krijgen, dan sluit je jezelf ook af van nieuwe adem. Van nieuwe indrukken. Van het leven dat binnen wil komen.' },
+
+      { kop: 'De Dikke Darm: de grote loslater' },
+      { tekst: 'Waar de Long ontvangt, laat de Dikke Darm los. Hij scheidt wat nog bruikbaar is van wat weg mag, en zorgt dat het afval het lichaam verlaat. Dat klinkt misschien weinig verheven, maar het is van levensbelang. Wie niet kan loslaten, raakt vol.' },
+      { tekst: 'Dat geldt niet alleen lichamelijk. Ook op emotioneel en geestelijk vlak verzamelen we van alles: oude verwachtingen, teleurstellingen, wrok, andermans zorgen, verantwoordelijkheden die we ooit op ons namen en nooit meer hebben neergelegd.' },
+      { tekst: 'De Dikke Darmmeridiaan begint bij je wijsvinger, loopt langs de buitenkant van je arm omhoog en gaat over de bovenkant van je schouder naar je hals en gezicht. Precies over de plek waar je dingen draagt. Waar de tas hangt. Waar je de last van de dag voelt.' },
+      { tekst: 'Misschien is het daarom niet toevallig dat zoveel vrouwen juist daar spanning ervaren. Wat je niet loslaat, moet je dragen. En dragen doe je met je schouders.' },
+
+      { kop: 'Twee schouders, twee verhalen' },
+      { tekst: 'Grofweg zie je bij schouderklachten twee patronen terug. Vaak herken je jezelf in een van beide, soms in allebei, afhankelijk van de periode in je leven.' },
+      { kop: 'Opgetrokken schouders: vasthouden' },
+      { tekst: 'Je schouders kruipen omhoog richting je oren. Je adem blijft hoog in je borst. Je voelt je gespannen, alert, altijd paraat. Het is alsof je lichaam zich schrap zet. Hier gaat het vaak over controle: het gevoel dat je alles bij elkaar moet houden, dat er iets misgaat als jij even loslaat. De Dikke Darm-kant van Metaal kan zijn werk niet doen. Er komt geen uitademing, geen ontspanning, geen neerleggen.' },
+      { kop: 'Ingezakte schouders: verdriet en kleiner worden' },
+      { tekst: 'Je schouders zakken naar voren en naar binnen. Je borst is ingevallen, je adem oppervlakkig. Je voelt je moe, wat somber misschien, of leeg. Hier speelt vaak onverwerkt verdriet: iets of iemand die je hebt moeten missen, zonder dat er ruimte was om echt te rouwen. Soms speelt ook het gevoel niet genoeg waard te zijn. Je maakt jezelf letterlijk kleiner. De Long-kant van Metaal kan niet goed ontvangen.' },
+      { tekst: 'Het mooie is: beide patronen vragen in de kern om hetzelfde. Om weer te durven ademen. Volledig in, volledig uit.' },
+
+      { kop: 'Loslaten is geen verlies' },
+      { tekst: 'We denken bij loslaten vaak aan kwijtraken. Aan opgeven, aan iets moeten missen. Maar kijk nog eens naar de boom in de herfst. Die verliest niets. Hij maakt ruimte.' },
+      { tekst: 'Elke uitademing maakt ruimte voor de volgende inademing. Je kunt niet ontvangen als je handen vol zijn. Je kunt geen nieuwe adem nemen als je longen nog vol zitten met de oude.' },
+      { tekst: 'Misschien is dat de les die je schouders je willen leren. Dat je hart vaak al weet wat het los wil laten.' },
+      { lijst: ['Een oude rol.', 'Een verwachting van hoe het had moeten zijn.', 'Een verdriet dat al lang genoeg gedragen is.'] },
+      { tekst: 'Maar je lichaam houdt nog vast, uit gewoonte, uit bescherming, uit angst voor de leegte die daarna komt.' },
+      { tekst: 'Die leegte is geen gat. Het is ruimte. De ruimte van de herfst, waarin alles stil wordt, zodat er straks iets nieuws kan groeien.' },
+
+      { kop: 'Een kleine oefening' },
+      { tekst: 'Je hebt hier niets voor nodig, alleen een paar minuten en een plek waar je even ongestoord kunt zitten.' },
+      { lijst: [
+        'Ga zitten met beide voeten op de grond. Voel het contact met de vloer, je Aarde.',
+        'Kruis je armen voor je borst en leg je handen op je schouders. Je houdt jezelf vast, zacht en zonder druk.',
+        'Adem rustig in door je neus. Laat de adem niet alleen naar je borst gaan, maar voel hoe hij onder je handen ook je schouders en je rug een beetje verruimt.',
+        'Adem langzaam uit door je mond, iets langer dan de inademing. Laat bij elke uitademing je schouders een klein stukje zakken, alsof ze onder je handen zwaarder worden.',
+        'Herhaal dit een paar minuten. Bij elke uitademing kun je in stilte tegen jezelf zeggen: ik mag neerleggen.',
+        'Laat tot slot je handen langzaam langs je armen naar beneden glijden, tot aan je vingertoppen. Alsof je iets van je af laat stromen.',
+      ] },
+      { tekst: 'Merk op wat er verandert. Niet om iets te bereiken, alleen om te voelen.' },
+
+      { kop: 'Vragen om bij stil te staan' },
+      { lijst: [
+        'Wat draag ik op mijn schouders dat eigenlijk niet (meer) van mij is?',
+        'Wat weet mijn hart al, dat mijn lichaam nog niet durft?',
+        'Wat zou ik ontvangen als ik meer ruimte maakte?',
+      ] },
+
+      { kop: 'Tot slot' },
+      { tekst: 'Je schouders zijn niet je vijand. Ze dragen al zo lang zo veel voor je. Ze verdienen het om gehoord te worden in plaats van weggemasseerd of genegeerd.' },
+      { tekst: 'Gebruik deze herfst om te luisteren. Naar je adem, naar je schouders, naar wat er in je wil gaan. Je hoeft niet alles in één keer neer te leggen. Eén uitademing is genoeg om te beginnen.' },
+      { tekst: 'Heb je aanhoudende of hevige schouderklachten? Maak dan eens een afspraak voor een acupunctuurbehandeling.', linkTekst: 'acupunctuurbehandeling', linkHref: '/acupunctuur' },
+      { tekst: 'In mijn praktijk combineer ik acupunctuur met NEI, hiermee kijken we wat er achter de schouderklachten verborgen zit.', linkTekst: 'NEI', linkHref: '/neuro-emotionele-integratie' },
+      { cta: 'Maak een afspraak →', href: '/contact' },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
