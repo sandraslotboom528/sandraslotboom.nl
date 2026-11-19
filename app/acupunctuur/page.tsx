@@ -92,7 +92,7 @@ export default function AcupunctuurPage() {
       <section className="max-w-3xl mx-auto px-6 py-16 text-center">
         <Link href="/contact"
           className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity reveal">
-          Maak een afspraak →
+          Boek je behandeling →
         </Link>
       </section>
 
@@ -209,7 +209,7 @@ export default function AcupunctuurPage() {
       <section className="max-w-3xl mx-auto px-6 pb-16 text-center">
         <Link href="/contact"
           className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity reveal">
-          Maak een afspraak →
+          Boek je behandeling →
         </Link>
       </section>
 
@@ -292,7 +292,7 @@ export default function AcupunctuurPage() {
       <section className="max-w-3xl mx-auto px-6 py-16 text-center">
         <Link href="/contact"
           className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity reveal">
-          Maak een afspraak →
+          Boek je behandeling →
         </Link>
       </section>
       </div>

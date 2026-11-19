@@ -121,7 +121,7 @@ export default function InnerEssenceJourneyPage() {
           </p>
           <Link href="/contact"
             className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity reveal">
-            Maak een afspraak →
+            Boek je behandeling →
           </Link>
         </section>
       </div>

@@ -2189,8 +2189,8 @@ export const blogPosts: BlogPost[] = [
       { tekst: 'Metaal maakt ruimte. Water bewaart wat waardevol is. Samen herinneren ze ons eraan dat loslaten niet het einde van groei hoeft te zijn, het kan juist de voorbereiding zijn op wat later opnieuw tot bloei komt.' },
 
       { kop: 'Wil je de vijf elementen ook zelf ervaren?' },
-      { tekst: 'In mijn 5 elementen acupressuurtraining ontdek je hoe de 5 elementen en hun acupressuurpunten met elkaar samenhangen. Je leert de basis van de Chinese geneeskunde en gaat stap voor stap zelf met de punten aan de slag. Zo kun je niet alleen lezen over de voedende cyclus van Metaal en Water, maar ook ervaren hoe je met acupressuur aandacht kunt geven aan wat jouw lichaam nodig heeft.', linkTekst: '5 elementen acupressuurtraining', linkHref: '/training-5-elementen-acupressuur' },
-      { tekst: 'Wil je meer weten over de training? Bekijk hier de 5 elementen acupressuurtraining.', linkTekst: '5 elementen acupressuurtraining', linkHref: '/training-5-elementen-acupressuur' },
+      { tekst: 'In mijn 5 elementen acupressuuropleiding ontdek je hoe de 5 elementen en hun acupressuurpunten met elkaar samenhangen. Je leert de basis van de Chinese geneeskunde en gaat stap voor stap zelf met de punten aan de slag. Zo kun je niet alleen lezen over de voedende cyclus van Metaal en Water, maar ook ervaren hoe je met acupressuur aandacht kunt geven aan wat jouw lichaam nodig heeft.', linkTekst: '5 elementen acupressuuropleiding', linkHref: '/opleiding-5-elementen-acupressuur' },
+      { tekst: 'Wil je meer weten over de opleiding? Bekijk hier de 5 elementen acupressuuropleiding.', linkTekst: '5 elementen acupressuuropleiding', linkHref: '/opleiding-5-elementen-acupressuur' },
     ],
   },
   {
@@ -2403,8 +2403,8 @@ export const blogPosts: BlogPost[] = [
       { tekst: 'Het Vuur en het Metaal in jou zijn geen tegenstanders. Ze zijn bondgenoten die elkaar vormen. Wanneer je ze allebei de ruimte geeft, ontstaat er iets wat zowel warm als helder is, zowel open als stevig. Als goud dat door het vuur is gegaan.' },
 
       { kop: 'Verder verdiepen in de 5 elementen' },
-      { tekst: 'Wil je de relaties tussen de elementen niet alleen begrijpen, maar ook ervaren in je eigen lichaam? In mijn online acupressuurtraining 5 elementen acupressuur werken we met precies deze bewegingen: de voedende cyclus en de controlerende cyclus. Je leert per meridiaan de 5 elementenpunten kennen, zoals Long 10 en Hart 4 uit deze blog, en ontdekt hoe je met zachte aanraking het evenwicht tussen de elementen kunt ondersteunen. Bij jezelf, en als je dat wilt ook bij anderen.', linkTekst: 'online acupressuurtraining 5 elementen acupressuur', linkHref: '/training-5-elementen-acupressuur' },
-      { cta: 'Bekijk de training 5 elementen acupressuur →', href: '/training-5-elementen-acupressuur' },
+      { tekst: 'Wil je de relaties tussen de elementen niet alleen begrijpen, maar ook ervaren in je eigen lichaam? In mijn online acupressuuropleiding 5 elementen acupressuur werken we met precies deze bewegingen: de voedende cyclus en de controlerende cyclus. Je leert per meridiaan de 5 elementenpunten kennen, zoals Long 10 en Hart 4 uit deze blog, en ontdekt hoe je met zachte aanraking het evenwicht tussen de elementen kunt ondersteunen. Bij jezelf, en als je dat wilt ook bij anderen.', linkTekst: 'online acupressuuropleiding 5 elementen acupressuur', linkHref: '/opleiding-5-elementen-acupressuur' },
+      { cta: 'Bekijk de opleiding 5 elementen acupressuur →', href: '/opleiding-5-elementen-acupressuur' },
     ],
   },
   {
@@ -2474,8 +2474,8 @@ export const blogPosts: BlogPost[] = [
       { tekst: 'Het Metaal en het Hout in jou zijn geen tegenstanders. De snoeischaar en de boom werken samen aan hetzelfde: een leven dat groeit in een richting die klopt, en dat vrucht draagt.' },
 
       { kop: 'Verder verdiepen in de 5 elementen' },
-      { tekst: 'Wil je de relaties tussen de elementen niet alleen begrijpen, maar ook ervaren in je eigen lichaam? In mijn online acupressuurtraining 5 elementen acupressuur werken we met de 5 elementenpunten op de meridianen, zoals Long 11 in dit blog. Je leert van alle 12 Hoofdmeridianen de 5 elementenpunten kennen. Je ontdekt hoe je met zachte aanraking het evenwicht tussen de elementen kunt ondersteunen, bij jezelf en als je dat wilt ook bij anderen.', linkTekst: 'online acupressuurtraining 5 elementen acupressuur', linkHref: '/training-5-elementen-acupressuur' },
-      { cta: 'Bekijk de training 5 elementen acupressuur →', href: '/training-5-elementen-acupressuur' },
+      { tekst: 'Wil je de relaties tussen de elementen niet alleen begrijpen, maar ook ervaren in je eigen lichaam? In mijn online acupressuuropleiding 5 elementen acupressuur werken we met de 5 elementenpunten op de meridianen, zoals Long 11 in dit blog. Je leert van alle 12 Hoofdmeridianen de 5 elementenpunten kennen. Je ontdekt hoe je met zachte aanraking het evenwicht tussen de elementen kunt ondersteunen, bij jezelf en als je dat wilt ook bij anderen.', linkTekst: 'online acupressuuropleiding 5 elementen acupressuur', linkHref: '/opleiding-5-elementen-acupressuur' },
+      { cta: 'Bekijk de opleiding 5 elementen acupressuur →', href: '/opleiding-5-elementen-acupressuur' },
       { tekst: 'Acupressuur is een ondersteunende zelfzorgvorm en vervangt geen medische zorg. Heb je aanhoudende klachten, raadpleeg dan je huisarts of een behandelaar.' },
     ],
   },
@@ -2555,8 +2555,8 @@ export const blogPosts: BlogPost[] = [
 
       { kop: 'Verder leren met je handen' },
       { tekst: 'Metaal is één van de vijf elementen, en elk element heeft zijn eigen kwetsbare plekken. Wil je ook ontdekken hoe Hout, Vuur, Aarde en Water uit balans raken, en wat je daar zelf met zachte aanraking aan kunt doen?' },
-      { tekst: 'In mijn online training 5 elementen acupressuur leer je per element de ziekteoorzaken herkennen en de acupressuurpunten vinden die daarbij horen. Zo kun je jezelf, op je eigen tempo en vanuit huis, steeds weer terugbrengen naar rust en helderheid.', linkTekst: 'online training 5 elementen acupressuur', linkHref: '/training-5-elementen-acupressuur' },
-      { cta: 'Bekijk de online training 5 elementen acupressuur →', href: '/training-5-elementen-acupressuur' },
+      { tekst: 'In mijn online opleiding 5 elementen acupressuur leer je per element de ziekteoorzaken herkennen en de acupressuurpunten vinden die daarbij horen. Zo kun je jezelf, op je eigen tempo en vanuit huis, steeds weer terugbrengen naar rust en helderheid.', linkTekst: 'online opleiding 5 elementen acupressuur', linkHref: '/opleiding-5-elementen-acupressuur' },
+      { cta: 'Bekijk de online opleiding 5 elementen acupressuur →', href: '/opleiding-5-elementen-acupressuur' },
     ],
   },
   {
@@ -2958,13 +2958,13 @@ export const blogPosts: BlogPost[] = [
       { tekst: 'Long 9 is één van de vele acupressuurpunten die binnen de vijf-elementenleer een bijzondere functie hebben.' },
       { tekst: 'Wanneer je begrijpt hoe de elementen met elkaar verbonden zijn en waarom een punt bij een bepaald element hoort, wordt acupressuur veel meer dan alleen een verzameling drukpunten.' },
       { lijst: ['Je leert kijken naar patronen.', 'Naar de beweging van Qi.', 'Naar de samenhang tussen de elementen.', 'En naar de vraag welk element op een bepaald moment aandacht vraagt.'] },
-      { tekst: 'In mijn online training 5 Elementen Zelfacupressuur neem ik je stap voor stap mee in deze manier van kijken.', linkTekst: 'online training 5 Elementen Zelfacupressuur', linkHref: '/training-5-elementen-acupressuur' },
+      { tekst: 'In mijn online opleiding 5 Elementen Zelfacupressuur neem ik je stap voor stap mee in deze manier van kijken.', linkTekst: 'online opleiding 5 Elementen Zelfacupressuur', linkHref: '/opleiding-5-elementen-acupressuur' },
       { tekst: 'Je leert de basis van de Traditionele Chinese geneeskunde, de voedende en controlerende cyclus en de vijf-elementenpunten van de meridianen kennen.' },
       { tekst: 'Zodat je niet zomaar een punt kiest omdat je ergens een klacht hebt, maar begrijpt waarom je binnen de vijf-elementenleer voor een bepaald punt zou kunnen kiezen.' },
       { tekst: 'Wil jij leren hoe je de vijf elementen en acupressuur bewust kunt toepassen in je dagelijks leven?' },
-      { tekst: 'Ontdek dan mijn online training 5 Elementen Zelfacupressuur.' },
+      { tekst: 'Ontdek dan mijn online opleiding 5 Elementen Zelfacupressuur.' },
       { tekst: 'Want hoe beter je de bewegingen van de vijf elementen begrijpt, hoe meer je leert herkennen wat jouw lichaam aandacht vraagt.' },
-      { cta: 'Bekijk de training 5 Elementen Zelfacupressuur →', href: '/training-5-elementen-acupressuur' },
+      { cta: 'Bekijk de opleiding 5 Elementen Zelfacupressuur →', href: '/opleiding-5-elementen-acupressuur' },
     ],
   },
 ];

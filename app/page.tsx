@@ -19,7 +19,7 @@ export default function HomePage() {
             genieten van je dagelijks leven.
           </p>
           <a href="/contact" className="hero-btn">
-            Maak een afspraak →
+            Boek je behandeling →
           </a>
         </div>
       </div>
@@ -135,13 +135,21 @@ export default function HomePage() {
             doorstroming van Qi en Bloed horen bij verschillende elementen, en samen vormen ze je gewrichten. Daarom
             kijk ik niet alleen naar de plek van de pijn, maar naar het geheel.
           </p>
-          <p className="font-bold text-primair mb-8 reveal">
+          <p className="font-bold text-primair mb-6 reveal">
             En dat is precies waar ik anders werk.
           </p>
-          <div className="text-center">
+          <p className="text-tekst/80 leading-relaxed mb-8 reveal">
+            Dat kan met acupunctuur. Liever geen naalden? Dan is een voetreflexbehandeling met acupressuur een
+            zachte manier om je lichaam weer te laten stromen. Je hoeft alleen te gaan liggen.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a href="/acupunctuur"
               className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity reveal">
               Lees hoe acupunctuur werkt →
+            </a>
+            <a href="/voetreflex"
+              className="inline-block border-2 border-primair text-primair font-bold px-8 py-3 rounded-full hover:bg-primair hover:text-wit transition-colors reveal">
+              Lees over voetreflex →
             </a>
           </div>
         </section>
@@ -152,7 +160,7 @@ export default function HomePage() {
             <h2 className="text-2xl font-bold text-primair mb-6 reveal">Weer vrij bewegen begint met een gesprek</h2>
             <a href="/contact"
               className="inline-block bg-primair text-wit font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity reveal">
-              Maak een afspraak →
+              Boek je behandeling →
             </a>
           </div>
         </section>

@@ -6,19 +6,21 @@ import Link from 'next/link';
 // Laat leeg ('') als je nog geen Kennis Shop hebt of geen link wilt tonen.
 const KENNIS_SHOP_URL = 'https://salacia.kennis.shop/';
 
-const navLinks = [
+type NavLink = { href: string; label: string; external?: boolean; children?: NavLink[] };
+
+const navLinks: NavLink[] = [
   { href: '/',              label: 'Home'         },
   {
     href: '/aanbod', label: 'Aanbod',
     children: [
       { href: '/acupunctuur',                  label: 'Acupunctuurbehandeling'        },
+      { href: '/voetreflex',                   label: 'Voetreflexbehandeling'         },
       { href: '/neuro-emotionele-integratie',  label: 'Neuro Emotionele Integratie'   },
       { href: '/inner-essence-journey',        label: 'Inner essence journey'         },
-      { href: '/training-5-elementen-acupressuur', label: 'Training 5 elementen acupressuur' },
-      { href: 'https://salacia.kennis.shop/',  label: 'Online acupressuur', external: true },
+      { href: '/opleiding-5-elementen-acupressuur', label: 'Opleiding 5 elementen acupressuur' },
     ],
   },
-  { href: '/training-5-elementen-acupressuur', label: 'Acupressuurtraining' },
+  { href: '/opleiding-5-elementen-acupressuur', label: 'Acupressuuropleiding' },
   { href: '/one-day-retreat', label: 'One Day Retreat' },
   { href: '/digitale-adventskalender', label: 'Adventskalender' },
   { href: '/gratis-e-book-acupressuur', label: 'Gratis e-book' },

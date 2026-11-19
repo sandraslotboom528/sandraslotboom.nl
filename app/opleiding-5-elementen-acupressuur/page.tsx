@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import ScrollReveal from '@/components/ScrollReveal';
 
 export const metadata: Metadata = {
-  title: 'Training 5 elementen acupressuur',
+  title: 'Opleiding 5 elementen acupressuur',
   description:
     'Leer de signalen van je lichaam herkennen vanuit de 5 elementen en stel een eigen acupressuurroutine samen van maximaal 10–15 minuten per dag.',
 };
@@ -43,35 +43,35 @@ const vragen = [
     antwoord: 'Nee. Je begint bij de basis en bouwt van daaruit verder.',
   },
   {
-    vraag: 'Hoeveel tijd kost de training?',
+    vraag: 'Hoeveel tijd kost de opleiding?',
     antwoord:
       'Je doorloopt de modules in je eigen tempo. Hoe lang je daarvoor nodig hebt, hangt af van hoeveel tijd je wilt nemen om te leren en te oefenen. Je uiteindelijke acupressuurroutine duurt maximaal 10–15 minuten per dag.',
   },
   {
-    vraag: 'Kan ik de training volgen als ik geen duidelijke klachten heb?',
+    vraag: 'Kan ik de opleiding volgen als ik geen duidelijke klachten heb?',
     antwoord:
-      'Ja. De training is ook bedoeld voor mensen die bewust aandacht willen geven aan hun gezondheid en hun lichaam beter willen leren kennen.',
+      'Ja. De opleiding is ook bedoeld voor mensen die bewust aandacht willen geven aan hun gezondheid en hun lichaam beter willen leren kennen.',
   },
   {
     vraag: 'Werk ik steeds met dezelfde punten?',
     antwoord:
-      'Je leert een routine kiezen die past bij het element dat aandacht vraagt. Veranderen de signalen die je bij jezelf opmerkt, dan kun je met de kennis uit de training je keuzes opnieuw bekijken.',
+      'Je leert een routine kiezen die past bij het element dat aandacht vraagt. Veranderen de signalen die je bij jezelf opmerkt, dan kun je met de kennis uit de opleiding je keuzes opnieuw bekijken.',
   },
   {
     vraag: 'Kan ik hiermee klachten voorkomen of oplossen?',
     antwoord:
-      'De training geeft je kennis en vaardigheden om zelfacupressuur toe te passen en bewuster met signalen om te gaan. Ze geeft geen garantie dat klachten worden voorkomen of verdwijnen. Zelfacupressuur is een aanvulling op je zorg voor jezelf; bij aanhoudende, onverklaarde of toenemende klachten blijft passende medische beoordeling belangrijk.',
+      'De opleiding geeft je kennis en vaardigheden om zelfacupressuur toe te passen en bewuster met signalen om te gaan. Ze geeft geen garantie dat klachten worden voorkomen of verdwijnen. Zelfacupressuur is een aanvulling op je zorg voor jezelf; bij aanhoudende, onverklaarde of toenemende klachten blijft passende medische beoordeling belangrijk.',
   },
 ];
 
 export default function TrainingPage() {
   return (
     <>
-      {/* Hero — de titel staat al in de foto; zie .hero-section-training in globals.css */}
-      <div className="hero-section hero-section-training" style={{ backgroundImage: "url('/fotos/herosectie-training.jpg')" }}>
+      {/* Hero — herosectie-acupressuuropleiding.jpg als achtergrond */}
+      <div className="hero-section" style={{ backgroundImage: "url('/fotos/herosectie-acupressuuropleiding.jpg')" }}>
         <div className="hero-overlay">
           <h1 className="text-3xl md:text-4xl font-bold text-white max-w-2xl leading-tight">
-            Training 5 elementen acupressuur
+            Opleiding 5 elementen acupressuur
           </h1>
         </div>
       </div>
@@ -83,7 +83,7 @@ export default function TrainingPage() {
             Van zoeken naar losse gezondheidstips naar weten wat jij dagelijks voor je lichaam kunt doen.
           </p>
           <p className="text-lg font-bold text-primair/90 leading-relaxed mb-8 reveal">
-            Leer met de training 5 elementen acupressuur de signalen van je lichaam herkennen en stel een passende
+            Leer met de opleiding 5 elementen acupressuur de signalen van je lichaam herkennen en stel een passende
             acupressuurroutine samen van maximaal 10–15 minuten per dag.
           </p>
           <p className="text-tekst/80 leading-relaxed mb-4 reveal">
@@ -92,7 +92,7 @@ export default function TrainingPage() {
             mij?
           </p>
           <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-            In deze training leer je vanuit de 5 elementen kijken naar de samenhang tussen signalen van je lichaam.
+            In deze opleiding leer je vanuit de 5 elementen kijken naar de samenhang tussen signalen van je lichaam.
             Je ontdekt welk element op dit moment aandacht vraagt en leert hoe je daar zelf passende
             acupressuurpunten bij kiest.
           </p>
@@ -104,7 +104,7 @@ export default function TrainingPage() {
             Ja, ik wil weten wat ik zelf kan doen →
           </a>
           <p className="text-tekst/60 text-sm mt-4 reveal">
-            Online training · in je eigen tempo · nu instappen voor €185,-
+            Online opleiding · in je eigen tempo · nu instappen voor €185,-
           </p>
         </section>
 
@@ -133,7 +133,7 @@ export default function TrainingPage() {
               <li>Hoe maak ik daar een routine van die ik ook volhoud?</li>
             </ul>
             <p className="font-bold text-primair reveal">
-              De training 5 elementen acupressuur helpt je om die keuzes bewuster te maken.
+              De opleiding 5 elementen acupressuur helpt je om die keuzes bewuster te maken.
             </p>
           </div>
         </section>
@@ -144,7 +144,7 @@ export default function TrainingPage() {
             Van losse tips naar een aanpak die bij jou past
           </h2>
           <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-            Met de training 5 elementen acupressuur leer je signalen van je lichaam herkennen en vanuit de 5
+            Met de opleiding 5 elementen acupressuur leer je signalen van je lichaam herkennen en vanuit de 5
             elementen begrijpen welk element het meeste aandacht vraagt. Je leert de verbanden zien en stelt zelf
             een passende acupressuurroutine samen van maximaal 10–15 minuten per dag.
           </p>
@@ -166,7 +166,7 @@ export default function TrainingPage() {
                   naar samenhang te kijken.
                 </p>
                 <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-                  In de training ontdek je hoe lichamelijke signalen, emoties, activiteit en rust binnen dit kader
+                  In de opleiding ontdek je hoe lichamelijke signalen, emoties, activiteit en rust binnen dit kader
                   met elkaar verbonden zijn. Je leert observeren welke patronen je bij jezelf herkent en welk
                   element op dat moment aandacht vraagt.
                 </p>
@@ -182,9 +182,9 @@ export default function TrainingPage() {
           </div>
         </section>
 
-        {/* Dit leer je in de training */}
+        {/* Dit leer je in de opleiding */}
         <section className="max-w-3xl mx-auto px-6 py-16">
-          <h2 className="text-2xl font-bold text-primair mb-8 reveal">Dit leer je in de training</h2>
+          <h2 className="text-2xl font-bold text-primair mb-8 reveal">Dit leer je in de opleiding</h2>
           <ul id="onderdelen-lijst" className="space-y-6">
             {onderdelen.map((o) => (
               <li key={o.titel} className="border-l-2 border-primair/20 pl-5">
@@ -201,7 +201,7 @@ export default function TrainingPage() {
             <div className="two-col flip">
               <div className="col-text">
                 <h2 className="text-2xl font-bold text-primair mb-6 reveal">Wat kun je na afloop?</h2>
-                <p className="text-tekst/80 leading-relaxed mb-4 reveal">Na het doorlopen van de training kun je:</p>
+                <p className="text-tekst/80 leading-relaxed mb-4 reveal">Na het doorlopen van de opleiding kun je:</p>
                 <ul id="afloop-lijst" className="space-y-2 mb-6 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
                   <li>Signalen van je lichaam bewuster opmerken.</li>
                   <li>Vanuit de 5 elementen onderzoeken welk element het meeste aandacht vraagt.</li>
@@ -227,11 +227,11 @@ export default function TrainingPage() {
             Leren op jouw tempo, toepassen in jouw dagelijks leven
           </h2>
           <p className="text-tekst/80 leading-relaxed mb-4 reveal">
-            De training bestaat uit verschillende online modules die je in je eigen tijd doorloopt.
+            De opleiding bestaat uit verschillende online modules die je in je eigen tijd doorloopt.
           </p>
           <p className="text-tekst/80 leading-relaxed mb-6 reveal">
             Je kunt rustig de theorie bestuderen, oefenen met de punten en terugkijken wanneer je iets wilt
-            herhalen. Je hoeft de hele training niet in één keer af te ronden.
+            herhalen. Je hoeft de hele opleiding niet in één keer af te ronden.
           </p>
           <p className="font-bold text-primair reveal">
             Wanneer je jouw routine hebt samengesteld, vraagt de dagelijkse toepassing maximaal 10–15 minuten. Zo
@@ -242,7 +242,7 @@ export default function TrainingPage() {
         {/* Voor wie */}
         <section className="bg-wit">
           <div className="max-w-3xl mx-auto px-6 py-16">
-            <h2 className="text-2xl font-bold text-primair mb-6 reveal">Deze training past bij je als…</h2>
+            <h2 className="text-2xl font-bold text-primair mb-6 reveal">Deze opleiding past bij je als…</h2>
             <ul id="voorwie-lijst" className="space-y-2 mb-8 text-tekst/80 leading-relaxed border-l-2 border-primair/20 pl-5">
               <li>Je zelf actief aan je gezondheid wilt werken.</li>
               <li>Je aandacht wilt geven aan de signalen die je lichaam laat zien.</li>
@@ -271,7 +271,7 @@ export default function TrainingPage() {
                 gezondheid.
               </p>
               <p className="text-tekst/80 leading-relaxed mb-6 reveal">
-                Daarom maak ik in deze training de verbanden zichtbaar en leg ik de theorie in begrijpelijke taal
+                Daarom maak ik in deze opleiding de verbanden zichtbaar en leg ik de theorie in begrijpelijke taal
                 uit. Je leert hoe je de kennis gebruikt om bewuste keuzes te maken voor jouw dagelijkse routine.
               </p>
               <p className="font-bold text-primair reveal">Praktisch, helder en stap voor stap.</p>
@@ -326,9 +326,9 @@ export default function TrainingPage() {
               dus meteen beginnen en ze in je eigen tempo doorlopen.
             </p>
             <p className="text-tekst/80 leading-relaxed mb-4">
-              De training groeit de komende tijd verder. Bij elke nieuwe module gaat de instapprijs een stapje
+              De opleiding groeit de komende tijd verder. Bij elke nieuwe module gaat de instapprijs een stapje
               omhoog. Als je nu instapt voor €185,-, krijg je alle volgende modules erbij zonder extra te betalen.
-              Je betaalt dus één keer en groeit mee met de volledige training.
+              Je betaalt dus één keer en groeit mee met de volledige opleiding.
             </p>
             <p className="text-tekst/80 leading-relaxed mb-4">
               Ook zijn er 2 Q&amp;A’s inbegrepen waarin je jouw vragen kunt stellen over de theorie, de

@@ -7,27 +7,31 @@ export const metadata: Metadata = {
   description: 'Bekijk het aanbod van Salacia: acupunctuur, Neuro Emotionele Integratie, de Inner Essence Journey en meer.',
 };
 
-const diensten = [
+const diensten: { naam: string; beschrijving: string; link: string; external?: boolean }[] = [
   {
     naam: 'Acupunctuurbehandeling',
-    beschrijving: 'Voor wie pijn heeft aan spieren, pezen of gewrichten — gericht op de oorzaak, niet alleen het symptoom.',
+    beschrijving: 'Voor wie pijn heeft aan spieren, pezen of gewrichten, gericht op de oorzaak, niet alleen het symptoom.',
     link: '/acupunctuur',
   },
   {
+    naam: 'Voetreflexbehandeling',
+    beschrijving: 'Voor wie pijn heeft in nek, rug of gewrichten, een zachte behandeling via je voeten en acupressuurpunten, zonder naalden.',
+    link: '/voetreflex',
+  },
+  {
     naam: 'Neuro Emotionele Integratie',
-    beschrijving: 'Voor wie pijn houdt die steeds terugkomt — zoek de onverwerkte emoties die onbewust vastzitten en laat ze los, met de wijsheid van de 5 elementen.',
+    beschrijving: 'Voor wie pijn houdt die steeds terugkomt, zoek de onverwerkte emoties die onbewust vastzitten en laat ze los, met de wijsheid van de 5 elementen.',
     link: '/neuro-emotionele-integratie',
   },
   {
     naam: 'Inner essence journey',
-    beschrijving: 'Voor vrouwen die altijd aan staan — een lichaamsgerichte reis naar diepe rust en helderheid.',
+    beschrijving: 'Voor vrouwen die altijd aan staan, een lichaamsgerichte reis naar diepe rust en helderheid.',
     link: '/inner-essence-journey',
   },
   {
-    naam: 'Online acupressuur',
-    beschrijving: 'Wil je zelf aan de slag met de 5 elementen? Bekijk dan mijn aanbod in de Acupressuur Academy.',
-    link: 'https://salacia.kennis.shop/',
-    external: true,
+    naam: 'Acupressuuropleiding',
+    beschrijving: 'Voor wie zelf aan de slag wil met de 5 elementen, leer de signalen van je lichaam herkennen en stel je eigen acupressuurroutine samen van maximaal 10–15 minuten per dag.',
+    link: '/opleiding-5-elementen-acupressuur',
   },
 ];
 
