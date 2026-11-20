@@ -104,7 +104,7 @@ export default function TrainingPage() {
             Ja, ik wil weten wat ik zelf kan doen →
           </a>
           <p className="text-tekst/60 text-sm mt-4 reveal">
-            Online opleiding · in je eigen tempo · nu instappen voor €185,-
+            Online opleiding · in je eigen tempo · nu instappen voor €185,- (t/m 5 december)
           </p>
         </section>
 
@@ -322,13 +322,14 @@ export default function TrainingPage() {
           <div className="bg-wit rounded-2xl p-8 mb-8 text-left reveal">
             <h3 className="text-xl font-bold text-primair mb-4">Stap nu in voor €185,-</h3>
             <p className="text-tekst/80 leading-relaxed mb-4">
-              De eerste 3 modules staan voor je klaar, inclusief de module met de acupressuurpunten. Je kunt
+              De eerste 5 modules staan voor je klaar, inclusief de module met de acupressuurpunten. Je kunt
               dus meteen beginnen en ze in je eigen tempo doorlopen.
             </p>
             <p className="text-tekst/80 leading-relaxed mb-4">
-              De opleiding groeit de komende tijd verder. Bij elke nieuwe module gaat de instapprijs een stapje
-              omhoog. Als je nu instapt voor €185,-, krijg je alle volgende modules erbij zonder extra te betalen.
-              Je betaalt dus één keer en groeit mee met de volledige opleiding.
+              De opleiding groeit de komende tijd verder. De instapprijs van €185,- geldt nog t/m 5 december,
+              daarna gaat de prijs naar €250,-. Die prijs geldt t/m 1 januari. Dan is de volgende module klaar en
+              gaat de prijs verder omhoog. Als je nu instapt, krijg je alle volgende modules erbij zonder extra te
+              betalen. Je betaalt dus één keer en groeit mee met de volledige opleiding.
             </p>
             <p className="text-tekst/80 leading-relaxed mb-4">
               Ook zijn er 2 Q&amp;A’s inbegrepen waarin je jouw vragen kunt stellen over de theorie, de
